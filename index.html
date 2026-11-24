@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#153e38" />
+    <title>私立白箱学园：今天社团也没对齐！</title>
+    <link rel="stylesheet" href="src/game.css" />
+    <script defer src="src/prologue.js"></script>
+    <script defer src="src/engine.js"></script>
+    <script defer src="src/audio.js"></script>
+    <script defer src="src/game.js"></script>
+  </head>
+  <body>
+    <main id="academy">
+      <section id="title-page" aria-label="标题界面">
+        <header class="mast">
+          <div class="school">
+            <span class="crest" aria-hidden="true">白</span
+            ><span>私立白箱学园<small>WHITEBOX ACADEMY</small></span>
+          </div>
+          <span class="term">春季学期 <i></i> 序章</span>
+        </header>
+        <div class="cover">
+          <div class="cover-copy">
+            <div class="door"><span>404</span> 综合疑难咨询部</div>
+            <h1><small>私立</small>白箱学园</h1>
+            <p class="subtitle">今天社团也没对齐！</p>
+            <p class="english" lang="en">Misaligned Club!</p>
+            <nav aria-label="主菜单">
+              <button class="start" data-title="start">
+                <span aria-hidden="true">▷</span> 推开 404 大门 <b>→</b>
+              </button>
+              <button data-title="load">
+                <span aria-hidden="true">▤</span> 读取调律记录 <b>↗</b>
+              </button>
+              <button data-title="gallery">
+                <span aria-hidden="true">❖</span> 角色衣橱图鉴 <b>↗</b>
+              </button>
+              <button data-title="settings">
+                <span aria-hidden="true">☼</span> 学园环境设置 <b>↗</b>
+              </button>
+            </nav>
+          </div>
+          <div id="accordion" aria-label="五位社团部员"></div>
+        </div>
+        <footer class="cover-foot">
+          <span>WHITEBOX ACADEMY <i>✦</i> CLUB 404</span><span>开场与序章 <i>／</i> PROLOGUE</span>
+        </footer>
+      </section>
+      <section id="reader" hidden tabindex="-1" aria-label="剧情阅读器">
+        <div id="scene"></div>
+        <div id="cast"></div>
+        <div id="chapter"></div>
+        <button id="menu-key" aria-label="游戏菜单">☰</button>
+        <div id="stage-hit" aria-hidden="true"></div>
+        <article id="textbox" tabindex="0" aria-label="对白，点击继续">
+          <div class="dialogue-head">
+            <span id="speaker"></span><button id="note-toggle" hidden>偷看内心草稿</button>
+          </div>
+          <aside id="note" hidden></aside>
+          <div id="speech" aria-live="off"></div>
+          <i class="turn" aria-hidden="true">◆</i>
+        </article>
+        <nav id="quick" aria-label="阅读控制">
+          <button data-quick="back">回退</button><button data-quick="log">回看</button
+          ><button data-quick="auto">自动</button><button data-quick="skip">快进</button
+          ><button data-quick="hide">隐藏</button><button data-quick="save">存档</button
+          ><button data-quick="load">读档</button>
+        </nav>
+        <div id="event" hidden></div>
+        <div id="notice" hidden></div>
+      </section>
+    </main>
+    <dialog id="system">
+      <div class="dialog-head">
+        <h2 id="system-heading"></h2>
+        <button id="close-system" aria-label="关闭">×</button>
+      </div>
+      <div id="system-body"></div>
+    </dialog>
+    <div id="toast" role="status"></div>
+  </body>
+</html>
