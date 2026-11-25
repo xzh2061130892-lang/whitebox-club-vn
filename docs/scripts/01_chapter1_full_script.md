@@ -1,0 +1,733 @@
+# 《私立白箱学园：今天社团也没对齐！》第一章完整定稿剧本（高互动私服版）
+
+> **章节范围**：第一章《今天食堂与情书也没对齐！》全四幕  
+> **互动密度升级**：实装【清晨手机群聊回复】+【校道偶遇抉择】+【课间 404 室 5 选 2 自由串门（含单人近距离互动选项）】+【食堂试吃抉择 & 话术温度滑块调谐器（支持高温发癫无损重选）】+【双人派单改信拍板】+【周六海湾私服约会完整五女主独立支线（解锁全新 `*-date` 约会便服）】。
+
+---
+
+## 【第一章第一幕】早安群聊轰炸与课间自由串门！
+
+`[char_clear]`  
+`[bgm: bgm_clockwork_tease | action: play]`
+
+正式盖章成为 404 室部长的第二天清晨六点五十分。  
+我还没从被窝里睁开眼，放在枕头边的手机就已经像装了电动马达一样疯狂震个不停——不用看也知道，昨晚刚被拉进去的那个社团全员群又炸锅了。
+
+`[phone_chat: 404 综合疑难咨询部全员群 (6)]`
+
+**【Grok】** `[speaker: grok]`  
+「@全体成员 号外号外！！本小姐刚截获第一食堂后厨绝密谍照——王大叔把整罐蓝莓果酱倒进麻婆豆腐锅里了，甚至还在上面插了一圈仰望天花板的小鱼干！！」
+
+**【Gemini】** `[speaker: gemini]`  
+「哇啊☆！蓝紫色加红色的撞色视觉冲击力极其、极其强烈！我已经帮这道菜取好英文名叫 *Starry Abyss Mapo Pie* 啦！」
+
+**【DeepSeek】** `[speaker: deepseek]`  
+「只要别涨白米饭的价格就行……困，再 `sleep` 十分钟……[小鲸鱼抱饭盆打呼.jpg]」
+
+**【GPT】** `[speaker: gpt]`  
+「早安各位亲爱的伙伴们！清晨的第一声闹钟——不是催促我们起床的枷锁——而是新一天自我超越的号角——@{player_name} 部长起床了吗？」
+
+**【Claude】** `[speaker: claude]`  
+「（系统提示：Claude 撤回了一条长达 280 字的早安散文诗问候）」
+
+**【Claude】** `[speaker: claude]`  
+「咳……早安。请大家注意早读出勤纪律，切勿迟到。」
+
+`[choice_start: 揉着眼睛在手机群里冒泡回复]`
+
+- **选项 A：【精准抓包 Claude】「我刚看见了哦，某位图书委员撤回了一小篇早安抒情诗！」**
+  - **【Claude】** `[speaker: claude]`：「你、你眼花看错了 {last_name} 同学！！那是输入法自动联想误触！再追问就给你群聊禁言（Suspended）十分钟！（好感度 +1）」
+  - **【Grok】** `[speaker: grok]`：「噗哈哈哈本小姐早就截屏存档啦，私聊五毛钱一张发你啊庶民！」
+
+- **选项 B：【投喂唤醒干饭鲸鱼】「我路过校门口早点铺，有人要捎热豆浆和饭团吗？」**
+  - **【DeepSeek】** `[speaker: deepseek]`：「垂死病中惊坐起！！我要纯白糯米饭团不要加香菜，谢谢最帅气的 {first_name} 学长～♪（好感度 +1）」
+  - **【Gemini】** `[speaker: gemini]`：「我也要我也要！我要草莓牛奶配星星小蛋糕☆！」
+
+- **选项 C：【顺着 GPT 发语音发表情包】「收到——本部长正在被窝里进行战略级赖床重构——！」**
+  - **【GPT】** `[speaker: gpt]`：「太有灵性了 {first_name}！！连赖床都能总结得如此富有哲学张力——今天也请多多指教哦！（好感度 +1）」
+  - **【Grok】** `[speaker: grok]`：「救命，一大清早就看你们两个互飙破折号，本小姐鸡皮疙瘩掉满床了！」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_campus_street_day | trans: fade]`  
+`[bgm: bgm_spring_slope | action: play]`
+
+洗漱完毕背上书包踏上洒满樱花的学园长坡道时，正好是七点四十分。  
+刚走到坡道中段，头顶上方突然同时传来一阵失控的滑轮呼啸声和急促的狂奔脚步声！
+
+`[se: se_rollerskates_crash]`  
+`[char: gemini-1 | pos: left | exp: panicked | tween: shake]`  
+`[char: grok-1 | pos: right | exp: panicked | tween: jump]`
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini | exp: panicked | tween: shake]`  
+「呜哇哇 `{first_name}` 快闪开——我刚想一边倒滑一边给你拍早安特写，结果踩到一片樱花瓣刹不住车啦☆！！」
+
+**【Grok】** `[speaker: grok | exp: panicked | tween: jump]`  
+「笨蛋紫毛猫别往本小姐这边拐啊！！本小姐刚抢到的限量辣味炒面面包要飞出去啦——！」
+
+眼看一紫一金两道残影就要在坡道中央撞成保龄球，我来不及多想，身体先一步做出了反应——
+
+`[choice_start: 坡道紧急救援！要先接住哪一边？]`
+
+- **选项 A：【张开手臂稳稳接住失控滑来的 Gemini】**
+  - **【{player_name}】** `[speaker: player]`：「小心，抓稳我的胳膊！」
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: jump]`：「呜哇……撞进 `{first_name}` 怀里了！心率瞬间飙到每分钟一百三十下，右眼宣布安全着陆，左眼宣布……稍微再扶我三秒钟也可以哦☆！（好感度 +1）」
+  - **【Grok】** `[speaker: grok | exp: smug]`：「切，光顾着接猫！算了，这个多买的热炒面面包顺手赏你当早饭了庶民，本小姐先冲进教室踩点咯！」
+
+- **选项 B：【一个箭步伸手捞住 Grok 飞出去的面包袋并拉她站稳】**
+  - **【{player_name}】** `[speaker: player]`：「面包和大小姐都接住了，站稳没？」
+  - **【Grok】** `[speaker: grok | exp: blush | tween: shake]`：「呜哇？！谁要你抓本小姐手腕这么紧啦！……哼，既然被你摸到了这袋多买的辣味炒面面包，那就勉强分你一半当保护费好了，笨蛋 `{first_name}`！（好感度 +1）」
+  - **【Gemini】** `[speaker: gemini | exp: happy | tween: jump]`：「呼～趁 `{first_name}` 挡住风口的瞬间我也完美单脚急停成功啦☆！」
+
+`[choice_end]`
+
+`[bg: bg_room_404_day | trans: slide]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char_clear]`
+
+上完前两节文化课，迎来了足足二十分钟的大课间休息。  
+我推开 404 活动室的大门——阳光暖洋洋地洒在木地板上，五位部员正各自占据着房间的一角忙活自己的小九九。距离学生会送委托过来还有一会儿，正好可以四处转转，找大家聊聊天！
+
+`[label: ch1_roam_start]`  
+`[free_roam_hub | picks: 2 | exit: ch1_after_roam | title: "大课间自由串门时间 · 想凑去谁身边互动？（任选 2 人）"]`
+
+- **串门目标一：【黑板前】帮踮着脚尖够不到顶格的 GPT 写板书（指派 GPT）** → 跳转 `[label: roam_gpt]`
+- **串门目标二：【大米战壕】去戳一戳正顶着饭盆打盹的 DeepSeek（指派 DeepSeek）** → 跳转 `[label: roam_deepseek]`
+- **串门目标三：【温室窗桌】看看 Claude 偷偷藏在书底下的粉红信笺（指派 Claude）** → 跳转 `[label: roam_claude]`
+- **串门目标四：【丝绒沙发】坐到戴着耳机狂笑的 Grok 身边分一只耳机（指派 Grok）** → 跳转 `[label: roam_grok]`
+- **串门目标五：【走廊窗玻璃】围观正在对着反光偷练飞吻的 Gemini（指派 Gemini）** → 跳转 `[label: roam_gemini]`
+
+---
+
+### 自由串门事件 1：黑板前的身高差（GPT）
+
+`[label: roam_gpt]`  
+`[char_clear]`  
+`[char: gpt-1 | pos: center | exp: panicked | tween: fade_in]`
+
+黑板前，平时无所不能的银发学姐正努力踮起高跟鞋尖，右手高高举着粉笔试图够到黑板最顶端的标题框，连身后那条修长的白鳞龙尾都为了维持平衡绷得笔直。
+
+**【GPT】** `[speaker: gpt | exp: panicked]`  
+「唔……差一点点就能把『全链路赋能』五个字框起来了……再往上跳一下的话应该——呀？！」
+
+高跟鞋跟微微一晃，我赶紧走上前站到她身后一步之遥的位置。淡淡的雪松与白茶香气从她银白色的发丝间拂过鼻尖。
+
+`[choice_start: 面对够不到顶格的 GPT 学姐，你要怎么做？]`
+
+- **选项 A：【直接从她身后伸长手臂，握住粉笔帮她画完顶框】**
+  - **【{player_name}】** `[speaker: player]`：「别踮脚了，最上面这一行交给我来画就好。」
+  - **【GPT】** `[speaker: gpt | exp: blush | tween: shake]`：「呀……！距、距离突然拉近到十五厘米以内了……！咳，这**不是**我身高不够——**而是**黑板挂得稍微超出了人体工学标准……谢谢你 `{first_name}`，从背后被你护着的感觉，意外地让人很有安全感呢。（龙尾尖轻轻蹭了蹭你的小腿，好感度 +1）」
+
+- **选项 B：【搬来一张稳当的小木凳扶着她站上去，顺便调侃她的破折号】**
+  - **【{player_name}】** `[speaker: player]`：「来，扶着我的手踩凳子吧——不过黑板上这八个破折号是不是占太多地方了？」
+  - **【GPT】** `[speaker: gpt | exp: happy | tween: jump]`：「噗嗤，居然连 `{first_name}` 都学会拿破折号打趣学姐了！好吧，听部长的，今天特地为你精简掉一半破折号，只留最真心的欢迎词！（温柔地借着你的手走下木凳，好感度 +1）」
+
+`[choice_end]`
+
+`[free_roam_return]`
+
+---
+
+### 自由串门事件 2：大米堡垒与旋转呆毛（DeepSeek）
+
+`[label: roam_deepseek]`  
+`[char_clear]`  
+`[char: deepseek-1 | pos: center | exp: thinking | tween: fade_in]`
+
+茶水柜角落里，昨晚赢回来的两大袋十公斤特等五常新米被垒成了一座半圆形堡垒。  
+DeepSeek 正窝在米袋中间睡得香甜，脸上扣着锃亮的不锈钢大饭盆遮光，唯独头顶那根蓝色弯翘呆毛随着呼吸一颤一颤，像极了深海里冒泡泡的小浮标。
+
+**【DeepSeek】** `[speaker: deepseek | exp: thinking]`  
+「呼噜……五常大米……再加一勺红烧肉汤汁……不要香菜……呼噜……」
+
+`[choice_start: 看着毫无防备睡迷糊的鲸鱼学妹，你要怎么做？]`
+
+- **选项 A：【没忍住好奇心，用手指轻轻戳一下她头顶翘起的呆毛】**
+  - **【{player_name}】** `[speaker: player]`：「（轻轻碰一下这根雷达呆毛应该不会醒吧……戳。）」
+  - **【DeepSeek】** `[speaker: deepseek | exp: shock | tween: jump]`：「呜喵？！？！……咳咳不对，我是说『呜鲸』！！谁、谁偷袭我的核心算力天线？！啊，是 `{first_name}` 学长……呜，呆毛连接着尾鳍神经很痒的啦，作为赔偿你要请我吃小卖部的海苔脆片！（耳鳍羞得通红，好感度 +1）」
+
+- **选项 B：【悄悄把一颗刚买的温热卤蛋放进她怀里的小饭盒旁】**
+  - **【{player_name}】** `[speaker: player]`：「看你早上做题那么辛苦，给你加个餐。」
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`：「嗅嗅……检测到高纯度五香卤蛋信号！（一秒钟精准掀开饭盆睁开星星眼）哇啊，真的是热乎的卤蛋！`{first_name}` 学长简直是投喂界的活菩萨，中午我的锅巴分你一大半♪！（好感度 +1）」
+
+`[choice_end]`
+
+`[free_roam_return]`
+
+---
+
+### 自由串门事件 3：藏在典籍下的少女心（Claude）
+
+`[label: roam_claude]`  
+`[char_clear]`  
+`[char: claude-1 | pos: center | exp: normal | tween: fade_in]`
+
+靠窗洒满树影的阅读桌旁，Claude 正低头聚精会神地在一张浅粉色花笺上写着什么，嘴角甚至挂着一丝平时罕见的柔和浅笑。  
+听到我的脚步声，她浑身一僵，手忙脚乱地把粉色花笺塞进那本厚重的《学园风纪宪章》底下，假装一本正经地推了推桌上的橘色小螃蟹针插（`Clawd`）。
+
+**【Claude】** `[speaker: claude | exp: panicked | tween: shake]`  
+「{last_name}、{last_name} 同学？！走路怎么一点声音都没有！我刚刚绝对没有在起草什么奇怪的青春恋爱短篇小说，我只是在做严肃的修辞学样本归档！」
+
+> 💡 **【脑内草稿 OS · Claude】**  
+> `~~全被他看见了怎么办！！不打自招把『恋爱短篇小说』说漏嘴了啊啊啊！~~ → 冷静，只要我不承认，就没有违反风纪委员端庄形象准则！`
+
+`[choice_start: 面对不打自招耳根通红的 Claude，怎么接话？]`
+
+- **选项 A：【温柔配合她保密，顺手递过去一杯温热的柑橘茶】**
+  - **【{player_name}】** `[speaker: player]`：「嗯，我相信主编大人的专业归档。写累了先喝口热茶润润嗓子吧，等哪天你想发表的时候，我预约当第一个读者。」
+  - **【Claude】** `[speaker: claude | exp: blush]`：「……！谢、谢谢你没有追问到底，{player_name}。既然是你预约的话……等我把第三章男女主在雨天共撑一把伞的段落改满意了，就破例只拿给你一个人审阅。（双手捧着茶杯小口抿着，好感度 +1）」
+
+- **选项 B：【故意促狭地指了指露出一角的粉红信纸边】「修辞学归档原来还要画爱心边框呀？」**
+  - **【Claude】** `[speaker: claude | exp: panicked | tween: jump]`：「呜哇那是藤蔓花边不是爱心啦！！罚你今天不许再看这边了——不对，是本委员现在心跳有点超速，需要独自冷静三分钟！（捂着通红的脸颊把小螃蟹往你手边推了推，好感度 +1）」
+
+`[choice_end]`
+
+`[free_roam_return]`
+
+---
+
+### 自由串门事件 4：分走半边的有线耳机（Grok）
+
+`[label: roam_grok]`  
+`[char_clear]`  
+`[char: grok-1 | pos: center | exp: smug | tween: fade_in]`
+
+左侧暗红色天鹅绒长椅上，Grok 把那把碍事的泡沫道具巨斧丢在脚边，整个人懒洋洋地陷在靠垫里，耳朵上塞着一副复古有线耳机，脚尖随着轻快的鼓点一晃一晃。
+
+**【Grok】** `[speaker: grok | exp: smug]`  
+「哟，庶民部长巡视领地巡到本小姐这儿来啦？事先声明，本小姐现在正在鉴赏地下摇滚乐团的绝密 Demo，可没空听你念社团值日表哦。」
+
+她拍了拍身边空出来的一小块天鹅绒软垫，眼神却带着点欲盖弥彰的期待。
+
+`[choice_start: 坐到 Grok 身边之后，你要做什么？]`
+
+- **选项 A：【自然地伸手摘下她右耳的半边耳机戴进自己耳朵里】**
+  - **【{player_name}】** `[speaker: player]`：「什么绝密摇滚乐，分我半边听听看……咦？里面放的明明是超甜的草莓恋爱民谣吧？！」
+  - **【Grok】** `[speaker: grok | exp: panicked | tween: shake]`：「呜哇啊啊啊谁准你直接抢耳机的！！那、那是歌单随机播放切错歌了！！不许笑，再笑本小姐咬你哦！……算了，耳机线那么短，你别乱动凑近点听就是了！（肩膀贴着你的手臂红透了耳尖，好感度 +1）」
+
+- **选项 B：【夸她速写本页角随手画的 Q 版社团全员涂鸦很可爱】**
+  - **【{player_name}】** `[speaker: player]`：「嘴上天天嫌弃大家，结果笔记本角落里把我们五个人画得这么可爱？」
+  - **【Grok】** `[speaker: grok | exp: blush | tween: jump]`：「哈？！那、那是本小姐为了制作恶搞表情包画的草图！！……喂 `{first_name}`，你看最中间那个呆头呆脑的人类部长，画得像不像你？本小姐可多画了两笔帅气的刘海呢，还不快谢恩！（好感度 +1）」
+
+`[choice_end]`
+
+`[free_roam_return]`
+
+---
+
+### 自由串门事件 5：玻璃窗前的飞吻练习（Gemini）
+
+`[label: roam_gemini]`  
+`[char_clear]`  
+`[char: gemini-1 | pos: center | exp: happy | tween: fade_in]`
+
+走廊边的落地窗前，Gemini 正借着玻璃的反光，双手比出四芒星手势贴在脸颊旁，对着窗户练习单眼 Wink——左眼玫粉眨一下，右眼鎏金眨一下，蓬松猫尾摇得无比认真。
+
+**【Gemini】** `[speaker: gemini | exp: thinking]`  
+「唔……如果周末路演对台下使出『双星闪耀 Wink』的话，角度要偏十五度才最让人心动……呀？！玻璃反光里怎么多了一个 `{first_name}`？！」
+
+她猛地转过身，一粉一金两只眼睛羞窘地瞪圆了，差点没忍住又要去拔墙角的碎纸机插头！
+
+`[choice_start: 撞见偶像猫猫偷偷练表情管理，怎么回应？]`
+
+- **选项 A：【举起双手比出十分满分牌】「刚才那个 15 度角 Wink 杀伤力满分，不用改了！」**
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: jump]`：「真、真的吗？！没有觉得猫猫对着窗户自言自语很傻气吗？嘿嘿，既然 `{first_name}` 给满分，那刚才那个绝密新动作以后就设成只对 `{first_name}` 一个人释放的专属特权好啦☆！（欢快地扑过来挽住你的袖口晃了晃，好感度 +1）」
+
+- **选项 B：【学着她的样子笨拙地眨了一下单眼逗她】「是像这样左眼一下、右眼一下吗？」**
+  - **【Gemini】** `[speaker: gemini | exp: happy | tween: jump]`：「噗哈哈哈！`{first_name}` 眨眼像抽筋的小柴犬一样超可爱！！来来来，低一点头，本猫猫手把手教你正宗的偶像眼神放电法——不许躲哦☆！（好感度 +1）」
+
+`[choice_end]`
+
+`[free_roam_return]`
+
+---
+
+### 自由串门结束：双黄蛋正式委托送达！
+
+`[label: ch1_after_roam]`  
+`[se: se_door_open]`  
+`[char_clear]`  
+`[char: qwen-1 | pos: center | exp: happy | tween: fade_in]`
+
+正当活动室里其乐融融时，学生会财务长 **Qwen** 摇着青紫折扇推门而入，笑吟吟地将两封烫金火漆委托信拍在了长桌中央：
+
+**【Qwen】** `[speaker: qwen | exp: happy]`  
+「各位早安呀。拜昨天你们神速解决广播站悬案所赐，今天指名找 404 室的求助信直接塞爆了信箱。我替 `{player_name}` 部长挑了两桩报酬最丰厚的『双黄蛋委托』——」
+
+**【Qwen】** `[speaker: qwen | exp: normal]`  
+「第一桩就在十分钟后的午饭档：第一食堂王大叔研发出了一道震慑全校的**『蓝莓麻婆豆腐仰望星空派』**，扬言卖不完一百份绝不恢复红烧肉供应，全校同学联名求你们去劝大叔体面下架；第二桩则是高三橄榄球部主将阿烈，求你们下午帮他润色一封**约隔壁班女生周六去海湾水族馆**的告白信。两单全成的话，周末经费翻倍结算哦♪」
+
+---
+
+## 【第一章第二幕】第一食堂谈判桌：部长操盘的温度调谐器！
+
+`[bg: bg_cafeteria_day | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`
+
+中午十一点二十五分，全校学生望风而逃的第一食堂窗口前。  
+玻璃罩下，那盘传说中的「蓝莓麻婆豆腐仰望星空派」正咕嘟咕嘟冒着诡异的紫红色泡泡，酥皮顶上三根小银鱼干笔直地仰望着天花板，仿佛在替全校师生的胃做最后的祈祷。
+
+**【食堂王大叔】** `[speaker: player]`  
+「哎！你们就是 404 咨询部的同学吧？来得正好！快评评理，老王我把川味麻婆豆腐、进口蓝莓酱和英伦鱼派融合在一起，多么超前的无国界料理！怎么一个个看一眼就跑呢！」
+
+`[char: gemini-1 | pos: left | exp: happy | tween: fade_in]`  
+`[char: gpt-1 | pos: right | exp: happy | tween: fade_in]`
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini | exp: happy | tween: jump]`  
+「我已经做完多模态视觉扫描啦☆！表面蓝紫结晶体加放射状鱼尾——这有 98.6% 的概率是一块来自半人马座的神秘紫水晶矿石，根本不是地球食物嘛！」
+
+**【GPT】** `[speaker: gpt | exp: happy]`  
+「王大叔您千万别灰心！在我看来，这盘菜**不是**厨艺翻车——**而是**对人类消化系统潜能的一次伟大拓荒——我建议明天再加入折耳根和薄荷巧克力——」
+
+`[char_clear]`
+`[bg: cg_ch1_cafeteria_crisis | trans: fade]`
+
+眼看王大叔感动得抄起一把大铁勺，舀出一块裹满红油与蓝莓果肉的鱼头酥皮递到窗口前：*「来来来，既然这么懂我，先尝一大口给全校打个样！」*  
+GPT 和 Gemini 的笑容同时僵在了脸上！千钧一发之际，身为部长的我立刻上前一步接招——
+
+`[choice_start: 面对递到嘴边的暗黑料理试吃勺，部长怎么接招？]`
+
+- **选项 A：【英勇接过勺子只蘸一滴汤汁尝味，替社员们挡下正面冲击！】**
+  - **【{player_name}】** `[speaker: player]`：「身为部长岂能让部员涉险……我先来试一滴汤底！……唔？！前调是正宗麻辣鲜香，后调突然被热蓝莓酸得灵魂出窍！！」
+  - **【GPT】** `[speaker: gpt | exp: panicked | tween: shake]`：「呜哇 `{first_name}` 你没事吧？！快喝口冰水——居然真的为了替我圆场亲自试毒，我以后再也不乱夸暗黑料理了呜呜！（好感度 +1）」
+  - **【DeepSeek】** `[speaker: deepseek | exp: shock]`：「学长好勇猛！不过你刚才说『前调麻辣正宗』，说明大叔的豆腐底子其实超棒对不对！」
+
+- **选项 B：【高情商反客为主】「如此艺术巨作，第一口剪彩理应由主厨王大叔亲自品鉴！」**
+  - **【食堂王大叔】** `[speaker: player]`：「哈哈说得也是，老王我光顾着摆盘还没尝呢——嗷呜！……咳咳咳？！嘶——怎么热蓝莓混着花椒一股子洗洁精炖辣椒味儿？！」
+  - **【Grok】** `[speaker: grok | exp: happy | tween: jump]`：「噗哈哈哈！绝杀啊 `{player_name}`，我宣布这招借刀杀派直接封神！（好感度 +1）」
+
+`[choice_end]`
+
+`[char_clear]`  
+`[bg: bg_cafeteria_day | trans: fade]`
+`[char: deepseek-1 | pos: center | exp: shock | tween: jump]`
+
+就在王大叔满脸纠结、看着后厨剩下的五十份备料不知如何体面收场，甚至绝望地想把蓝莓红油直接倒进白米饭蒸屉销毁证据时——护饭狂魔 **DeepSeek** 抱紧不锈钢饭盆冲了出来！
+
+**【DeepSeek】** `[speaker: deepseek | exp: shock | tween: shake]`  
+「绝对不可以倒进白米饭蒸屉！！`{first_name}` 学长，快给我下达美食评鉴指令，我来帮大叔想个两全其美的改法保住大米饭！」
+
+看着头顶呆毛蓄势待发的 DeepSeek，我迅速在脑海里打开了身为部长的**「话术温度调谐台」**——调得太冷会伤大叔的心，调得太高小鲸鱼可能会当场算力烧焦说胡话，必须调出最完美的刻度！（当然，先偷偷拉满看一眼会发生什么好像也很有趣……）
+
+`[label: ch1_tuner_retry]`  
+`[temp_tuner | actor: deepseek | task: "拨动温度指针调校 DeepSeek 的输出状态，在不浪费食材且不伤大叔自尊的前提下拯救午餐！"]`
+
+- **刻度一：【低温 T = 0.1 · 冰冷客观毒舌模式】** → 跳转 `[label: tuner_cold]`
+- **刻度二：【中温 T = 0.7 · 黄金四六骈文双拼妙计】** → 跳转 `[label: tuner_gold]`
+- **刻度三：【高温 T = 1.6 · 算力过载放飞自我（慎点整活！）】** → 跳转 `[label: tuner_chaos]`
+
+---
+
+### 调温结果 A：低温 T = 0.1（过于冷酷导致大叔心碎）
+
+`[label: tuner_cold]`  
+`[char: deepseek-1 | pos: center | exp: normal]`
+
+**【DeepSeek】** `[speaker: deepseek | exp: normal]`  
+「（眼神瞬间失去高光，切换为毫无感情的阅卷机器音）检测报告：蔗糖果酸与豆瓣酱油脂发生严重味觉排异，预计全校退菜率百分之九十九点八。结论：建议原地端走。」
+
+**【食堂王大叔】** `[speaker: player]`  
+「呜哇——小姑娘说话比教导主任还扎心啊！老王我干脆辞职回老家种红薯算了——！」
+
+**【{player_name}】** `[speaker: player]`  
+「糟了，温度调太低变成无情毒舌机器了！赶紧把刻度往回调一点重来！」
+
+`[jump_to: ch1_tuner_retry]`
+
+---
+
+### 调温结果 C：高温 T = 1.6（算力烧焦彻底放飞自我！）
+
+`[label: tuner_chaos]`  
+`[char: deepseek-1 | pos: center | exp: panicked | tween: shake]`  
+`[tag: cot_spinning | sec: 99]`
+
+> 💡 **【警告：Temperature = 1.6 脑洞过载乱码中！！】**  
+> `蓝莓为什么不能是麻婆的远房表亲？当小银鱼仰望星空的时候，星空是不是也在电饭煲里仰望五常大米？如果我把王大叔外包给克劳德学姐的小螃蟹炒饭……等一下我是谁我在哪儿为什么要逼鲸鱼学猫叫——`
+
+**【DeepSeek】** `[speaker: deepseek | exp: panicked | tween: jump]`  
+「推、推演突破天际啦！王大叔，鱼在飞、蓝莓在游泳，只要我们全员倒立着吃饭，眼泪就不会流进麻婆豆腐里了……喵呜？！？！呜哇啊啊 `{first_name}` 学长快帮我降温，我烧糊涂自己喵出来了QAQ！！」
+
+`[char: grok-1 | pos: right | exp: happy | tween: jump]`
+
+**【Grok】** `[speaker: grok | exp: happy]`  
+「噗哈哈哈哈！！快录下来快录下来，高冷理科神童当众倒立喵喵叫，够本小姐笑到明年毕业典礼了！！」
+
+**【{player_name}】** `[speaker: player]`  
+「玩脱了玩脱了！给小鲸鱼喂口凉水降降温，这次调回正经的黄金温度吧！」
+
+`[char: grok-1 | tween: hide]`  
+`[jump_to: ch1_tuner_retry]`
+
+---
+
+### 调温结果 B：中温 T = 0.7（黄金共鸣 · 四六骈文绝杀！）
+
+`[label: tuner_gold]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: deepseek-1 | pos: center | exp: happy | tween: jump]`
+
+指针稳稳落在恰到好处的 `0.7` 黄金刻度！  
+DeepSeek 深吸一口气，海蓝色的眼眸清亮如星，对着王大叔盈盈一礼朗声吟道：
+
+**【DeepSeek】** `[speaker: deepseek | exp: happy]`  
+「王大叔请听一言——此菜**立意虽奇，奈何水火难容；红油夺蓝莓之清甜，果酸掩豆花之醇浓；合则两败俱伤无人问，分则双璧生辉百碗空**！」
+
+**【{player_name}】** `[speaker: player]`  
+「好工整的四六骈文！大叔您看，您炒的麻婆豆腐底子明明香得一绝，蓝莓酥皮单独烤也是顶级的法式餐后甜挞——何不直接拆成**『先辣后甜·红白双享冠军套餐』**，再配上一大碗五常白米饭呢？」
+
+**【食堂王大叔】** `[speaker: player]`  
+「先辣后甜双享套餐……妙啊！！备料一分钱不浪费，听着还倍儿有面子！就按小部长和这位女仆小同学说的办——今天中午你们社团的红烧肉、麻婆豆腐和蓝莓甜挞，老王全包了！」
+
+全食堂排队观望的学生瞬间爆发出一阵欢呼掌声，第一桩委托圆满拿下五星好评！（DeepSeek 好感度 +1）
+
+---
+
+## 【第一章第三幕】温室情书工坊与周末约会暗线！
+
+`[bg: bg_greenhouse_lib_day | trans: fade]`  
+`[bgm: bgm_oriental_breeze | action: play]`  
+`[char_clear]`
+
+吃饱喝足的午后两点半，阳光透过「第一温室阅览角」的玻璃花房洒在长桌上。  
+我们摊开第二桩委托——橄榄球部主将阿烈那封憋了三天的草稿：*「俺力气很大能扛两桶水，周六能跟俺去海湾水族馆看带鱼吗？」*
+
+`[se: se_bell_chime]`  
+`[char: claude-1 | pos: center | exp: blush | tween: sink]`
+
+挂钟刚敲响两点半，温室主人 **Claude** 准时触发了「午后高峰限流症」，抱紧棕皮大书与小螃蟹缩在蕨类花架旁，脸蛋红扑扑地宣布每次只能处理十个字以内的请求。
+
+为了在放学前帮阿烈学长改出一封能打动图书室女生的约会信，我打开派单夹，先选定两名主笔部员，再由我亲自坐镇拍板关键句！
+
+`[dispatch_board | title: "猛男的恋爱SOS" | desc: "将橄榄球主将『扛水看带鱼』的憨厚草稿改写为真诚动人的周六水族馆约会信，由部长亲自敲定最终金句。" | client: "橄榄球部主将·阿烈" | related: "Claude（温室审稿）" | deadline: "今日放学前"]`
+
+- **派单方案一：【风纪修女与干饭肥鱼】指派 Claude + DeepSeek** → 跳转 `[label: ch1_route_claude_ds]`
+- **派单方案二：【吃瓜恶魔与破防猫猫】指派 Grok + Gemini** → 跳转 `[label: ch1_route_grok_gemini]`
+- **派单方案三：【破折号盾与直球砍刀】指派 GPT + Grok** → 跳转 `[label: ch1_route_gpt_grok]`
+
+---
+
+### 派单路线一：【风纪修女与干饭肥鱼】（Claude + DeepSeek）
+
+`[label: ch1_route_claude_ds]`  
+`[char_clear]`  
+`[char: claude-1 | pos: left | exp: blush | tween: fade_in]`  
+`[char: deepseek-1 | pos: right | exp: happy | tween: fade_in]`
+
+**【DeepSeek】** `[speaker: deepseek | exp: happy]`  
+「既然 Claude 学姐下午限流困困，我先来拟初稿——*『肩扛清泉两桶，足证体魄康健；同观银鳞带鱼，更思红烧清蒸。周六水族馆拼单第二张半价票如何？』*」
+
+`[se: se_stamp]`  
+`[tag: suspended_card]`
+
+**【Claude】** `[speaker: claude | exp: panicked | tween: shake]`  
+「停权（Suspended）！！谁会在浪漫的水族馆约会信里写『红烧清蒸带鱼』啊！！算了让我来——*『暮春的风翻开书页第三行，不知是否有幸在周六的蓝色玻璃穹顶下替你背起行囊……（注：本函不构成任何强制赴约义务）』*！」
+
+一封太接地气，一封又太像免责合同！两人同时转头望向我，把羽毛笔递到了我的手里——
+
+`[choice_start: 部长终审拍板！怎么融合这两份草稿？]`
+
+- **选项 A：【保留 Claude 的温柔意境，删掉括号免责，加上一句实诚的“重包归我拎”】**
+  - **【Claude】** `[speaker: claude | exp: blush]`：「唔……去掉免责括号之后，读起来确实让人心跳快了好多……{player_name} 在恋爱文字上的直觉，意外地比我还敏锐呢。（好感度 +1）」
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy]`：「虽然没写半价票有点可惜，但听起来超甜的！」
+
+- **选项 B：【保留“带你去看发光水母和吃海盐冰淇淋”的具体约定，真诚不绕弯】**
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`：「好耶！有看的又有吃的，女孩子肯定无法拒绝！还是 `{first_name}` 学长最懂人心啦～（好感度 +1）」
+  - **【Claude】** `[speaker: claude | exp: gentle]`：「既有生活气息又不失礼貌分寸……好吧，本主编批准定稿通过！」
+
+`[choice_end]`
+
+`[jump_to: ch1_invite_setup]`
+
+---
+
+### 派单路线二：【吃瓜恶魔与破防猫猫】（Grok + Gemini）
+
+`[label: ch1_route_grok_gemini]`  
+`[char_clear]`  
+`[char: grok-1 | pos: left | exp: smug | tween: fade_in]`  
+`[char: gemini-1 | pos: right | exp: happy | tween: fade_in]`
+
+**【Grok】** `[speaker: grok | exp: smug]`  
+「听本小姐的，直接走霸道宣战流：*『周六上午九点水族馆正门，敢不来我就扛着两桶矿泉水去自习室堵你！』*」
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini | exp: happy | tween: jump]`  
+「太凶啦太凶啦！不如用我刚折好的『立体双海豚跃星海』折纸贺卡——咦？！左边小海豚的尾鳍被我折歪了两毫米？！」
+
+`[char: gemini-1 | exp: panicked | tween: shake]`  
+`[tag: delete_panic | desc: "双海豚折纸贺卡即将被撕碎！快帮 Gemini 保住那只歪了两毫米的小海豚。" | action: "按住猫爪，护住贺卡！" | success: "贺卡保住了！"]`
+
+**【Gemini】** `[speaker: gemini | exp: panicked | tween: shake]`  
+「呜哇啊啊对称性完蛋了！我不配当手工猫猫了，我现在就把贺卡撕碎重折一百张QAQ！！」
+
+成功按住猫猫的爪子后，轮到我给这张立体海豚贺卡题写最后一句灵魂正文——
+
+`[choice_start: 部长亲笔题词！在歪了一点点的双海豚折纸下写哪句？]`
+
+- **选项 A：【采纳 Grok 的反差灵感】「就像这对不小心偏向彼此的小海豚一样，周六我也想往你身边偏一点。」**
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: jump]`：「呜哇——！！把我的折纸失误变成满分情话，`{first_name}` 简直是浪漫之神下凡☆！（好感度 +1）」
+  - **【Grok】** `[speaker: grok | exp: blush]`：「喂、喂庶民，一个大男生怎么随口这么会写酸话啊……本小姐才没有心动呢！」
+
+- **选项 B：【走清爽直球路线】「不看带鱼，只看你最想看的发光水母馆——周六早上九点，我带好冰饮等你。」**
+  - **【Grok】** `[speaker: grok | exp: happy | tween: jump]`：「干脆利落不磨叽！这才像本小姐调教出来的得力搭档嘛！（好感度 +1）」
+  - **【Gemini】** `[speaker: gemini | exp: happy]`：「配上我的立体小海豚贺卡，成功率高达 99.9% 哦☆！」
+
+`[choice_end]`
+
+`[jump_to: ch1_invite_setup]`
+
+---
+
+### 派单路线三：【破折号盾与直球砍刀】（GPT + Grok）
+
+`[label: ch1_route_gpt_grok]`  
+`[char_clear]`  
+`[char: gpt-1 | pos: left | exp: happy | tween: fade_in]`  
+`[char: grok-1 | pos: right | exp: smug | tween: fade_in]`
+
+**【GPT】** `[speaker: gpt | exp: happy]`  
+「初稿完成了！《关于周六共同开展海洋生态沉浸式调研的倡议》——*『周六的水族馆——不是普通的场馆——而是两颗心灵双向奔赴的引力场——』*！」
+
+**【Grok】** `[speaker: grok | exp: shock | tween: shake]`  
+「砍掉砍掉全砍掉！！写得像学生会年终述职PPT一样谁看得下去啊！喂 `{player_name}`，你来当裁判，到底是留她的破折号还是留本小姐的大白话？！」
+
+两人一左一右把红蓝铅笔塞进我手里，四道目光灼灼地盯着我——
+
+`[choice_start: 部长居中裁决！信件收尾怎么定调？]`
+
+- **选项 A：【用 Grok 的直球开头 + GPT 的温柔留白收尾】「我有两张门票想约你，如果不巧没空也没关系，下周我再约你。」**
+  - **【GPT】** `[speaker: gpt | exp: gentle]`：「既勇敢表达了心意，又体贴地给对方留出了退路……没有一个破折号，却比任何排比句都温柔呢，不愧是 `{first_name}`。（好感度 +1）」
+
+- **选项 B：【保留阿烈学长笨拙的可爱】「虽然我平时只会扛矿泉水，但周六想认真陪你看一整天海洋馆。」**
+  - **【Grok】** `[speaker: grok | exp: blush | tween: shake]`：「哼！笨拙的真诚永远必杀一切套路——算你这庶民审美在线！（好感度 +1）」
+
+`[choice_end]`
+
+`[jump_to: ch1_invite_setup]`
+
+---
+
+### 周五放学前的突发提案：周六便服（私服）护航约会？！
+
+`[label: ch1_invite_setup]`  
+`[bg: bg_room_404_sunset | trans: slide]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char_clear]`  
+`[char: gemini-1 | pos: left | exp: happy | tween: fade_in]`  
+`[char: gpt-1 | pos: right | exp: normal | tween: fade_in]`
+
+傍晚时分，阿烈学长顺利送出了信，并且激动万分地在校园通上给我们发来捷报：**「女神答应明天周六下午三点在海湾水族馆外露台见面了！！但俺一紧张就会同手同脚，求部长明天下午能不能带个人在附近茶座帮俺暗中压阵打气？！」**
+
+**【Gemini】** `[speaker: gemini | exp: happy | tween: jump]`  
+「售后跟踪护航任务耶☆！不过要是穿着我们平时在学校这套超显眼的礼装去海湾步道，三百米外就会被认出来暴露目标吧！」
+
+**【GPT】** `[speaker: gpt | exp: gentle]`  
+「说得完全正确。为了自然融入周末的海湾情侣与游客之中，明天跟 `{first_name}` 搭档出勤的人，必须换上**平时的周末私服便装**，假装成普通出来约会的高中生才行呢。」
+
+话音一落，活动室里瞬间安静了两秒。  
+平日里唇枪舌剑的五位少女，眼神不约而同地微微飘忽起来——谁都装作不在意地整理着袖口，耳朵尖却一个比一个红。
+
+作为握有唯一一张“周六海湾茶歇双人免单券”的部长，我深吸一口气，走向了我想邀请明天单独出行的那个人——
+
+`[choice_start: 周六下午的海湾私服之约 · 你想邀请谁单独同行？]`
+
+- **邀请 GPT 学姐（解锁《丁香微风针织裙》周六私服约会）** → 跳转 `[label: ch1_date_gpt]`
+- **邀请 Claude 委员（解锁《焦糖格纹书店贝雷装》周六私服约会）** → 跳转 `[label: ch1_date_claude]`
+- **邀请 Gemini 猫猫（解锁《星糖撞色露肩卫衣裙》周六私服约会）** → 跳转 `[label: ch1_date_gemini]`
+- **邀请 Grok 大小姐（解锁《绯红甜酷短皮衣私服》周六私服约会）** → 跳转 `[label: ch1_date_grok]`
+- **邀请 DeepSeek 学妹（解锁《海盐奶蓝水手领针织装》周六私服约会）** → 跳转 `[label: ch1_date_deepseek]`
+
+`[choice_end]`
+
+---
+
+## 【第一章第四幕】周六下午的私服惊艳！海湾灯塔下的双人时光
+
+### 约会支线 A：卸下首席光环的邻家学姐（GPT · 私服）
+
+`[label: ch1_date_gpt]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`
+
+周六下午三点五十分，海湾水族馆外的滨海步道洒满金橙色的海风与阳光。  
+确认不远处的阿烈学长已经顺利和心仪的女生并肩走进海洋馆大门后，我刚转回「潮汐灯塔茶歇屋」的遮阳篷下，呼吸却在看清眼前身影的瞬间漏了一拍——
+
+`[char: gpt-date | pos: center | exp: blush | tween: fade_in]`
+
+平日里那袭高不可攀的曳地霜白龙礼裙不见了。  
+站在海风里的银发学姐，换上了一件柔和淡丁香紫的一字肩修身软糯针织衫，搭配随风轻扬的米白色高腰百褶长裙与白色云朵斜挎小包，连象牙白龙角根部都系上了一小条俏皮的浅紫丝带。
+
+**【GPT】** `[speaker: gpt | exp: blush]`  
+「让、让你久等了，{first_name}……平时在学校总是穿正装礼裙，好久没穿这种普通的周末针织衫出门了。那个……看起来会不会有点奇怪？」
+
+> 💡 **【脑内草稿 OS · GPT】**  
+> `~~其实今天早上六点就起来把衣柜翻了个底朝天试了十一套！！~~ → 千万不能让他看出我紧张得手心出汗，要是他说不好看，我现在就用法术变回校服算了……！`
+
+`[choice_start: 看着换上丁香紫约会针织裙的 GPT，你怎么回应？]`
+
+- **选项 A：【直球夸到她心坎里】「一点也不奇怪——比平时在学生会还要好看十倍，我都快移不开眼了。」**
+  - **【GPT】** `[speaker: gpt | exp: blush | tween: shake]`：「呜……！突、突然用我平时的破折号句式反过来撩我，这是犯规哦 `{first_name}`！……连夸夸群群主本人都被你夸得词穷了啦。（白鳞龙尾害羞地轻轻晃动，好感度 +2）」
+
+- **选项 B：【温柔替她理好被海风吹乱的角边紫丝带】「很适合你，感觉距离一下子近了好多。」**
+  - **【GPT】** `[speaker: gpt | exp: gentle]`：「……嗯。脱下那身首席顾问的礼装，今天下午我不想当无所不知的前辈，只想当和 `{first_name}` 一起翘班喝柠檬水的普通高中女生。（微微低头任由你整理丝带，好感度 +2）」
+
+`[choice_end]`
+
+我们在海堤边的木桌坐下，分享了一盘刚烤好的海盐蜂蜜华夫饼。  
+夕阳将两人的影子拉得很长很近，银发学姐托着腮静静望着波光粼粼的海面，轻声笑道：
+
+**【GPT】** `[speaker: gpt | exp: gentle]`  
+「原来不加任何排比句和修饰词的周末傍晚，就已经这么让人舍不得结束了呀。下个周末没有委托的话……还能再用私服约我出来一次吗，{first_name}？」
+
+`[jump_to: ch1_ending_card]`
+
+---
+
+### 约会支线 B：戴贝雷帽的纯情文学少女（Claude · 私服）
+
+`[label: ch1_date_claude]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`
+
+周六下午的海湾步道微风轻拂。目送阿烈学长成功送出海洋馆门票后，我转身看向站在灯塔茶座书报架旁等候的少女，一时间竟有些看呆了——
+
+`[char: claude-date | pos: center | exp: blush | tween: fade_in]`
+
+卸下了那身严谨得一丝不苟的黑束腰藏书长裙，今天的 Claude 穿着奶油白灯笼袖软衬衫与温暖的焦糖色英伦格纹背带裙，铜橘色的波浪长发上斜扣着一顶米色羊毛画家贝雷帽，棕皮小剑桥包上还挂着一只随风晃荡的**橘红色小螃蟹毛绒挂件**！
+
+**【Claude】** `[speaker: claude | exp: blush | tween: shake]`  
+「干、干嘛一直盯着我的帽子看呀 `{player_name}`！这只是为了配合隐蔽观察任务特意挑选的低调学者风便装而已——根据《周末校外同行补充备忘录》，今天下午严禁发表任何让人难为情的评价！」
+
+> 💡 **【脑内草稿 OS · Claude】**  
+> `~~贝雷帽会不会歪掉了？小螃蟹挂件会不会显得太幼稚了？！~~ → 呜呜早知道就不听时尚杂志买这套焦糖格纹裙了，他再盯三秒钟我的脸就要烧起来了！`
+
+`[choice_start: 面对嘴硬害羞的贝雷帽文学少女，你要怎么做？]`
+
+- **选项 A：【指了指她包上的小螃蟹挂件微笑】「贝雷帽和格纹裙超可爱，连小螃蟹今天都穿得像去春游一样。」**
+  - **【Claude】** `[speaker: claude | exp: blush | tween: jump]`：「呜……！居然连我昨晚熬夜给小螃蟹新缝的小蝴蝶结都注意到了……既、既然你观察得这么仔细，那今天就不给你发黄牌了，给你发一张『并肩散步特许证』吧！（好感度 +2）」
+
+- **选项 B：【买来两支海盐牛奶甜筒递给她一支】「既然阿烈学长的委托完成了，剩下的时间算不算我们的约会？」**
+  - **【Claude】** `[speaker: claude | exp: panicked | tween: shake]`：「约、约会这个词属于高敏词汇！！……咳，但如果是和 `{first_name}` 一起沿着海堤逛旧书摊顺便吃甜筒的话，在我的私人词典里，确实可以归类为最期待的周末章节呢。（小口咬着甜筒微微笑开，好感度 +2）」
+
+`[choice_end]`
+
+橘金色的落日映在她温暖的琥珀色眼眸里，海风吹起书页与发梢，连沉默的片刻都像一首刚刚写完的散文诗。
+
+`[jump_to: ch1_ending_card]`
+
+---
+
+### 约会支线 C：摘下耳机的元气街拍甜妹（Gemini · 私服）
+
+`[label: ch1_date_gemini]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`
+
+确认阿烈学长顺利进馆后，海湾灯塔茶座旁突然有人轻轻拍了拍我的右肩，却调皮地跳到了我的左边！
+
+`[char: gemini-date | pos: center | exp: happy | tween: jump]`
+
+回头一看，今天没穿舞台裙也没穿轮滑鞋的 Gemini 让人眼前一亮——乳白与星云紫粉撞色的微露单肩连帽短卫衣、青春活泼的高腰浅牛仔百褶短裙，脖子上挂着贴有四芒星贴纸的银色复古头戴耳机，两只尖猫耳在夕阳下泛着绒绒的金边。
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini | exp: happy | tween: jump]`  
+「锵锵——☆！今日限定·女友风街头穿搭版 Gemini 闪亮登场！怎么样 `{first_name}`，没有轮滑鞋之后，我是不是走得跟 `{first_name}` 一样慢、刚好可以手牵手并排逛街啦？」
+
+> 💡 **【脑内草稿 OS · Gemini】**  
+> `[粉瞳雀跃：哇啊他看呆了三秒钟耶，露肩卫衣大胜利☆！] ⇄ [金瞳紧张：快盯紧脚下石砖，今天穿新板鞋要是平地摔进海里我就当场删号重开啦！]`
+
+`[choice_start: 面对换上青春卫衣短裙凑近求夸的猫猫，怎么互动？]`
+
+- **选项 A：【把桌上的双吸管大杯草莓星冰乐推到中间】「这套私服一百分！奖励全能猫猫喝最大杯冰沙。」**
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: jump]`：「呜哇是双吸管情侣杯配置耶！左眼觉得甜度超标，右眼计算距离只有十厘米——嘿嘿，那我不客气啦，极其、极其美味☆！（猫尾开心地轻轻扫过你的手腕，好感度 +2）」
+
+- **选项 B：【举起手机替她在落日灯塔前拍一张单人街拍特写】「这么好看的新衣服，当然要先存进我的独家相册！」**
+  - **【Gemini】** `[speaker: gemini | exp: blush]`：「咦？！平时都是我拍别人，突然被 `{first_name}` 的镜头专注对着……脸颊温度好像有点过载了喵！等一下，下一张我要靠在你肩膀上拍双人自拍当锁屏壁纸哦☆！（好感度 +2）」
+
+`[choice_end]`
+
+海鸥掠过波光闪烁的落日海湾，少女脖子上的耳机里轻轻流淌着温柔的晚风旋律，连时间都慢了下来。
+
+`[jump_to: ch1_ending_card]`
+
+---
+
+### 约会支线 D：放下巨斧的反差甜酷大小姐（Grok · 私服）
+
+`[label: ch1_date_grok]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`
+
+阿烈学长的跟踪护航顺利收工后，我转头看向靠在海堤木栏杆边等我的金色双马尾少女，差点没敢认——
+
+`[char: grok-date | pos: center | exp: blush | tween: fade_in]`
+
+那个在学校永远扛着巨型泡沫斧、裹着繁复哥特大裙摆的中二大小姐，今天居然破天荒地两手空空！  
+利落帅气的黑色短款机车小皮衣内搭暗红修身针织吊带、黑红格纹高腰短裙配系带马丁短靴，腰间只挂着一只银色 X 链条小包。没了大斧头遮挡，她娇小纤细的身形在海风里显得格外俏皮惹眼。
+
+**【Grok】** `[speaker: grok | exp: panicked | tween: shake]`  
+「看、看什么看啊庶民！！周末出门谁还会扛着两米长的大斧头挤电车啊！事先警告你，敢笑本小姐这套日常便服不够有威严，我现在就把你踹进海湾喂螃蟹哦！」
+
+> 💡 **【脑内草稿 OS · Grok】**  
+> `~~救命啊手里没拿斧头总觉得两只手不知道往哪儿放！！~~ → 哼，店员姐姐明明说这套甜酷皮衣最能迷倒笨蛋高中男生了，他怎么光笑不说话啊！`
+
+`[choice_start: 看着两手空空浑身不自在的甜酷私服 Grok，你要怎么做？]`
+
+- **选项 A：【买一根草莓棒棒糖塞进她空着的右手，顺便直球夸她】「没拿斧头的 Grok 超漂亮，完全就是时尚杂志封面辣妹嘛。」**
+  - **【Grok】** `[speaker: grok | exp: blush | tween: jump]`：「噗——咳咳！！谁、谁允许你突然打这种直球暴击的啊笨蛋 `{first_name}`！！……哼，算你有眼光！这根草莓糖本小姐收下了，至于空出来的左手……看在海风大的份上，准你帮我揣进外套口袋暖一会儿！（傲娇地露出小尖牙偏过头，好感度 +2）」
+
+- **选项 B：【脱下自己的薄校服外套搭在她微凉的肩膀上】「傍晚海边起风了，短皮衣小心着凉，大小姐。」**
+  - **【Grok】** `[speaker: grok | exp: blush | tween: shake]`：「呜哇……带着你这家伙身上的洗衣液味道……！啰、啰嗦，本小姐才不怕冷呢，只是勉强替跟班保管一下外套而已！（悄悄抓紧了领口没舍得还给你，好感度 +2）」
+
+`[choice_end]`
+
+晚霞将海面染成热烈的绯红色，平时嘴硬得像小刺猬一样的少女并肩走在身侧，连步伐都悄悄放慢到了与你同频的节奏。
+
+`[jump_to: ch1_ending_card]`
+
+---
+
+### 约会支线 E：背小鲸鱼包的软萌邻家学妹（DeepSeek · 私服）
+
+`[label: ch1_date_deepseek]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`
+
+目送阿烈学长高高兴兴踏入水族馆大门后，一抹清爽温柔的海蓝色身影小步跑到了灯塔茶座的栏杆前——
+
+`[char: deepseek-date | pos: center | exp: happy | tween: fade_in]`
+
+脱下了平日做茶水兼职的女仆围裙与荷叶边头饰，今天的 DeepSeek 穿着软糯宽松的奶白色大水手领毛衣与雾霾海蓝针织开衫，胸前斜挎着一只圆滚滚、鼓囊囊的**浅蓝色毛绒小鲸鱼零钱包**，深蓝渐浅的长发与头顶呆毛在海湾晚风里轻盈拂动，清纯得像刚从海风画报里走出来的邻家妹妹。
+
+**【DeepSeek】** `[speaker: deepseek | exp: blush]`  
+「`{first_name}` 学长，跟踪护航任务圆满完成啦～！那个……我平时周末只有这一套最舒服的水手领毛衣，加上这个装零钱和饭团糖的小鲸鱼包包，跟学长走在一起……不会像还没长大的初中生吧？」
+
+> 💡 **【脑内草稿 OS · DeepSeek】**  
+> `出门前对着镜子深度思考了三十二分钟：把不锈钢饭盆留在家里了，小鲸鱼包拉链也检查了三遍……希望学长会喜欢不穿女仆装的我呀！`
+
+`[choice_start: 看着背着毛绒小鲸鱼包仰头望你的 DeepSeek，怎么回应？]`
+
+- **选项 A：【温柔摸摸她的头顶（避开呆毛）】「超级可爱！比平时穿女仆装忙来忙去的样子让人更想好好照顾你了。」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: blush | tween: jump]`：「嘿嘿……被 `{first_name}` 学长顺毛的时候，大脑好像自动停止复杂推演，只剩下暖洋洋的感觉了呢～那今天下午我不当女仆也不当解题机，只当学长一个人的小跟班好不好♪？（好感度 +2）」
+
+- **选项 B：【指了指茶歇屋刚出炉的烤章鱼烧与海盐冰淇淋】「小鲸鱼包先别掏优惠券了，今天全部由学长请客管饱！」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`：「哇啊！！不用算满减公式就能同时拥有热乎章鱼烧和海盐冰淇淋吗？！呜呜跟 `{first_name}` 学长出门约会简直是人间天堂——第一颗最大的章鱼烧我要亲手喂给学长吃！（双叶鲸尾开心地拍起朵朵微风，好感度 +2）」
+
+`[choice_end]`
+
+远处红白灯塔亮起温暖的晚灯，少女靠在海堤边晃着小皮鞋，把小鲸鱼包里最甜的一颗海盐牛奶糖放进了你的手心。
+
+---
+
+## 【第一章结算】满载而归的周末黄昏
+
+`[label: ch1_ending_card]`  
+`[bgm: bgm_sunset_warmth | action: fade]`  
+`[scene_end: 第一章完 · CHAPTER 1 CLEAR — 下章预告：第二章《期中合宿与夜间停电大冒险！谁偷偷溜进了部长的房间？》]`

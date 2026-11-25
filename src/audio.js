@@ -119,6 +119,17 @@
     interval = setInterval(pump, 120);
   }
   const sfx = {
+    se_shutter: [[760, 0.035, 'square', 100], [410, 0.045, 'triangle', 80]],
+    se_bubble_pop: [[580, 0.085, 'sine', 1250]],
+    se_drum: [[150, 0.075, 'triangle', 55]],
+    se_whistle: [[1420, 0.09, 'sine', 1760]],
+    se_firework: [[260, 0.11, 'triangle', 1200], [920, 0.19, 'sine', 220]],
+    se_firework_final: [[220, 0.21, 'triangle', 1600], [880, 0.4, 'sine', 440], [1320, 0.5, 'sine', 660]],
+    se_poke: [[740, 0.075, 'sine', 990]],
+    se_bell_chime: [
+      [1318, 0.45, 'sine', 1318],
+      [1976, 0.6, 'sine', 1976],
+    ],
     se_stamp: [
       [140, 0.13, 'triangle', 40],
       [650, 0.045, 'square', 160],

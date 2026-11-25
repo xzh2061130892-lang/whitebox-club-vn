@@ -1,0 +1,141 @@
+[
+  {
+    "phase": "morning",
+    "bottom": 776.59375,
+    "range": 0,
+    "scroll": 0,
+    "items": [
+      [
+        "cm-command",
+        185,
+        258
+      ],
+      [
+        "cm-dispatch",
+        443,
+        760
+      ]
+    ]
+  },
+  {
+    "phase": "live",
+    "bottom": 776.59375,
+    "range": 0,
+    "scroll": 0,
+    "items": [
+      [
+        "cm-command",
+        185,
+        258
+      ],
+      [
+        "cm-stage",
+        267,
+        437
+      ],
+      [
+        "cm-box cm-crisis",
+        446,
+        762
+      ],
+      [
+        "cm-choice cm-safe",
+        542,
+        703
+      ],
+      [
+        "cm-choice cm-risk",
+        542,
+        703
+      ],
+      [
+        "cm-choice cm-special",
+        542,
+        703
+      ],
+      [
+        "cm-choice cm-overdrive",
+        542,
+        703
+      ],
+      [
+        "cm-choice cm-chaos",
+        542,
+        703
+      ],
+      [
+        "cm-choice cm-carnival",
+        542,
+        703
+      ],
+      [
+        "cm-support",
+        712,
+        749
+      ]
+    ]
+  },
+  {
+    "phase": "boss",
+    "bottom": 776.59375,
+    "range": 0,
+    "scroll": 0,
+    "items": [
+      [
+        "cm-command",
+        185,
+        258
+      ],
+      [
+        "cm-stage",
+        267,
+        402
+      ],
+      [
+        "cm-call",
+        267,
+        402
+      ],
+      [
+        "cm-box cm-crisis",
+        411,
+        692
+      ],
+      [
+        "cm-choice cm-safe",
+        507,
+        633
+      ],
+      [
+        "cm-choice cm-risk",
+        507,
+        633
+      ],
+      [
+        "cm-choice cm-special",
+        507,
+        633
+      ],
+      [
+        "cm-choice cm-overdrive",
+        507,
+        633
+      ],
+      [
+        "cm-choice cm-chaos",
+        507,
+        633
+      ],
+      [
+        "cm-choice cm-carnival",
+        507,
+        633
+      ],
+      [
+        "cm-support",
+        642,
+        679
+      ]
+    ]
+  }
+]

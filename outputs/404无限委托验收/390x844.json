@@ -1,0 +1,129 @@
+{
+  "size": "390x844",
+  "turns": [
+    {
+      "day": 1,
+      "job": "invite",
+      "actions": [
+        "safe"
+      ],
+      "grade": 2,
+      "pay": 338,
+      "rep": 3,
+      "rent": 100,
+      "purchases": [
+        "printer",
+        "card",
+        "qwen"
+      ]
+    },
+    {
+      "day": 2,
+      "job": "umbrellas",
+      "actions": [
+        "card"
+      ],
+      "grade": 3,
+      "pay": 377,
+      "rep": 4,
+      "rent": 50,
+      "purchases": [
+        "kimi"
+      ]
+    },
+    {
+      "day": 3,
+      "job": "radio",
+      "actions": [
+        "qwen"
+      ],
+      "grade": 3,
+      "pay": 413,
+      "rep": 4,
+      "rent": 100,
+      "purchases": []
+    },
+    {
+      "day": 4,
+      "job": "photo",
+      "actions": [
+        "chaos"
+      ],
+      "grade": 0,
+      "pay": 40,
+      "rep": -1,
+      "rent": 100,
+      "purchases": []
+    },
+    {
+      "day": 5,
+      "job": "hearing",
+      "actions": [
+        "kimi",
+        "special"
+      ],
+      "grade": 3,
+      "pay": 903,
+      "rep": 5,
+      "rent": 100,
+      "purchases": []
+    }
+  ],
+  "grade": "S",
+  "cash": 1756,
+  "rep": 15,
+  "bonds": 4,
+  "clips": {
+    "invite": {
+      "honour": true
+    },
+    "umbrellas": {
+      "honour": true
+    },
+    "radio": {
+      "honour": true
+    },
+    "photo": {
+      "mishap": true
+    },
+    "hearing": {
+      "honour": true
+    }
+  },
+  "checks": [
+    "day1-morning",
+    "day1-crisis",
+    "day1-receipt",
+    "day1-market",
+    "day2-morning",
+    "day2-crisis",
+    "day2-receipt",
+    "day2-market",
+    "day3-morning",
+    "day3-crisis",
+    "day3-receipt",
+    "day3-market",
+    "day4-morning",
+    "day4-crisis",
+    "day4-receipt",
+    "day4-market",
+    "day5-morning",
+    "day5-crisis",
+    "boss-phase-2",
+    "day5-receipt",
+    "finished",
+    "codex",
+    "shop"
+  ],
+  "screens": [
+    "派单",
+    "采购",
+    "Boss连线",
+    "结算",
+    "图鉴"
+  ],
+  "errors": [],
+  "missing": [],
+  "oldSave": "preserved",
+  "arcadeCoins": 137
+}

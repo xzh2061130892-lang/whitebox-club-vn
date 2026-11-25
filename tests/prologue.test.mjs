@@ -29,7 +29,8 @@ test('每句署名台词、每个草稿和登场标签都进入剧本', () => {
   assert.throws(() => compile(source.replace('[char_clear]', '[typo]')), /未知指令/);
 });
 test('两种起名模式、空白和纯文本标点', () => {
-  assert.equal(names('', '').player_name, '陆澄');
+  assert.equal(names(' ', '　').player_name, '');
+  assert.equal(fresh().names.player_name, '');
   for (const name of [names(' 春 ', ' '), names('', '春')])
     assert.equal(
       interpolate('{last_name}/{first_name}/{player_name}', { names: name }),
@@ -110,6 +111,8 @@ test('六张场景、剧本调用的表情与各角色母版都已随游戏提�
       if (n.exp && n.exp !== 'normal') assets.add('sprites/' + id + '-1/' + n.exp + '.webp');
     }
   }
-  assert.equal(bgs.size, 6);
+  assert.equal([...bgs].filter(id => id.startsWith('bg_')).length, 6);
+  assert.deepEqual([...bgs].filter(id => id.startsWith('cg_')),
+    existsSync(new URL('assets/bg/cg_prologue_404_chaos.webp', root)) ? ['cg_prologue_404_chaos'] : []);
   for (const path of assets) assert.ok(existsSync(new URL('assets/' + path, root)), path);
 });

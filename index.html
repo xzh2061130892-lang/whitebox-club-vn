@@ -4,11 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
     <meta name="theme-color" content="#153e38" />
+    <link rel="icon" type="image/webp" href="assets/avatars/gpt-1.webp" />
     <title>私立白箱学园：今天社团也没对齐！</title>
+    <link rel="preload" as="image" href="assets/holo-cards/gpt-face.webp" />
+    <link rel="preload" as="image" href="assets/holo-cards/claude-face.webp" />
+    <link rel="preload" as="image" href="assets/holo-cards/gemini-face.webp" />
+    <link rel="preload" as="image" href="assets/holo-cards/grok-face.webp" />
+    <link rel="preload" as="image" href="assets/holo-cards/deepseek-face.webp" />
     <link rel="stylesheet" href="src/game.css" />
+    <link rel="stylesheet" href="src/activities.css" />
+    <link rel="stylesheet" href="src/commissions.css" />
+    <link rel="stylesheet" href="src/flowchart.css" />
+    <link rel="stylesheet" href="src/story-games.css" />
+    <link rel="stylesheet" href="src/arcade.css" />
+    <script defer src="src/icons.js"></script>
     <script defer src="src/prologue.js"></script>
+    <script defer src="src/chapter1.js"></script>
+    <script defer src="src/chapter2.js"></script>
+    <script defer src="src/chapter3.js"></script>
+    <script defer src="src/chapter4.js"></script>
+    <script defer src="src/chapter5.js"></script>
     <script defer src="src/engine.js"></script>
+    <script defer src="src/replay-data.js"></script>
+    <script defer src="src/replay.js"></script>
+    <script defer src="src/flowchart.js"></script>
+    <script defer src="src/poke.js"></script>
     <script defer src="src/audio.js"></script>
+    <script defer src="src/studio-poses.js"></script>
+    <script defer src="src/studio.js"></script>
+    <script defer src="src/commissions-data.js"></script>
+    <script defer src="src/club-activities.js"></script>
+    <script defer src="src/commissions-ui.js"></script>
+    <script defer src="src/recreation.js"></script>
+    <script defer src="src/tea.js"></script>
+    <script defer src="src/tea-room.js"></script>
+    <script defer src="src/story-games.js"></script>
+    <script defer src="src/arcade-decks.js"></script>
+    <script defer src="src/arcade.js"></script>
+    <script defer src="src/arcade-rounds.js"></script>
+    <script defer src="src/arcade-room.js"></script>
     <script defer src="src/game.js"></script>
   </head>
   <body>
@@ -19,7 +53,7 @@
             <span class="crest" aria-hidden="true">白</span
             ><span>私立白箱学园<small>WHITEBOX ACADEMY</small></span>
           </div>
-          <span class="term">春季学期 <i></i> 序章</span>
+          <div class="mast-tools"><span class="term">春季学期 <i></i> 社团活动录</span><button data-title="settings" data-icon="settings">学园环境设置</button></div>
         </header>
         <div class="cover">
           <div class="cover-copy">
@@ -28,57 +62,65 @@
             <p class="subtitle">今天社团也没对齐！</p>
             <p class="english" lang="en">Misaligned Club!</p>
             <nav aria-label="主菜单">
-              <button class="start" data-title="start">
-                <span aria-hidden="true">▷</span> 推开 404 大门 <b>→</b>
-              </button>
-              <button data-title="load">
-                <span aria-hidden="true">▤</span> 读取调律记录 <b>↗</b>
-              </button>
-              <button data-title="gallery">
-                <span aria-hidden="true">❖</span> 角色衣橱图鉴 <b>↗</b>
-              </button>
-              <button data-title="settings">
-                <span aria-hidden="true">☼</span> 学园环境设置 <b>↗</b>
-              </button>
+              <button class="start" data-title="start" data-icon="door">推开 404 大门 <b>→</b></button>
+              <button class="resume" data-title="resume" data-icon="play" hidden><strong></strong><b>→</b></button>
+              <button data-title="chapters" data-icon="map">章节与世界线</button>
+              <button data-title="load" data-icon="book">读取调律记录</button>
+              <button data-title="gallery" data-icon="archive">白箱档案室</button>
+              <button data-title="commissions" data-icon="club">404 社团活动室</button>
             </nav>
           </div>
           <div id="accordion" aria-label="五位社团部员"></div>
         </div>
         <footer class="cover-foot">
-          <span>WHITEBOX ACADEMY <i>✦</i> CLUB 404</span><span>开场与序章 <i>／</i> PROLOGUE</span>
+          <span>WHITEBOX ACADEMY <i>✦</i> CLUB 404</span><span>序章至终章 <i>／</i> 星海文化祭</span>
         </footer>
       </section>
       <section id="reader" hidden tabindex="-1" aria-label="剧情阅读器">
         <div id="scene"></div>
         <div id="cast"></div>
         <div id="chapter"></div>
-        <button id="menu-key" aria-label="游戏菜单">☰</button>
+        <button id="menu-key" title="游戏菜单 (Esc)" aria-label="游戏菜单">☰</button>
         <div id="stage-hit" aria-hidden="true"></div>
-        <article id="textbox" tabindex="0" aria-label="对白，点击继续">
-          <div class="dialogue-head">
-            <span id="speaker"></span><button id="note-toggle" hidden>偷看内心草稿</button>
-          </div>
-          <aside id="note" hidden></aside>
-          <div id="speech" aria-live="off"></div>
-          <i class="turn" aria-hidden="true">◆</i>
-        </article>
-        <nav id="quick" aria-label="阅读控制">
-          <button data-quick="back">回退</button><button data-quick="log">回看</button
-          ><button data-quick="auto">自动</button><button data-quick="skip">快进</button
-          ><button data-quick="hide">隐藏</button><button data-quick="save">存档</button
-          ><button data-quick="load">读档</button>
-        </nav>
+        <div class="reader-dock">
+          <article id="textbox" tabindex="0" aria-label="对白，点击继续">
+            <div class="dialogue-head">
+              <span id="speaker"></span><button id="note-toggle" hidden>偷看内心草稿</button>
+            </div>
+            <aside id="note" hidden></aside>
+            <div id="speech" aria-live="off"></div>
+            <i class="turn" aria-hidden="true">◆</i>
+          </article>
+          <nav id="quick" aria-label="阅读控制">
+            <button title="回退 (←)" data-quick="back">回退</button><button title="对话回看" data-quick="log">回看</button
+            ><button title="自动阅读" data-quick="auto">自动</button><button title="快进" data-quick="skip">快进</button
+            ><button title="隐藏 (H)" data-quick="hide">隐藏</button><button title="保存进度" data-quick="save">存档</button
+            ><button title="读取进度" data-quick="load">读档</button>
+          </nav>
+        </div>
+        <p class="cold-hint">点击屏幕继续 ▸</p>
         <div id="event" hidden></div>
         <div id="notice" hidden></div>
       </section>
     </main>
-    <dialog id="system">
+    <dialog id="system" aria-labelledby="system-heading">
       <div class="dialog-head">
         <h2 id="system-heading"></h2>
         <button id="close-system" aria-label="关闭">×</button>
       </div>
+      <nav id="hub-nav" class="gallery-tabs" aria-label="馆内导航" hidden></nav>
       <div id="system-body"></div>
     </dialog>
+    <dialog id="cg-viewer" aria-label="全屏鉴赏">
+      <div class="viewer-canvas"><img alt="" /></div>
+      <form method="dialog">
+        <button type="button" id="view-motion" hidden>播放动态</button>
+        <button type="button" id="view-detail" aria-pressed="false">原尺寸</button>
+        <button autofocus id="view-back">返回相册 ×</button>
+      </form>
+    </dialog>
     <div id="toast" role="status"></div>
+    <div id="poke-bubble" role="status" hidden></div>
+    <div id="achievement-toast" role="status" popover="manual" hidden></div>
   </body>
 </html>

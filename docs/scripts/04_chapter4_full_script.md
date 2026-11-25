@@ -1,0 +1,831 @@
+# 《私立白箱学园：今天社团也没对齐！》第四章完整定稿剧本（五女主专属个人恋爱篇）
+
+> **章节范围**：第四章《梅雨季的偏爱与藏在伞下的秘密》（五位女主角独立个人长线：GPT 线 / Claude 线 / Gemini 线 / Grok 线 / DeepSeek 线）  
+> **衔接说明**：若从第三章续玩，引擎读取 `state.lockedHero` 自动直入对应女主的个人线标签；若从选章菜单直接进入，则显示下方路线选择卡。每条个人线均完整包含【置顶特别关心一对一私聊】+【404 室吃瓜审讯抉择】+【六月夏服共伞约会】+【专属软肋破局·心音温度调谐器】+【雨霁恋人誓言】。
+
+---
+
+## 【第四章 · 路线入口】六月紫阳花与心意延续
+
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`  
+`[bgm: bgm_spring_slope | action: play]`
+
+初夏六月，连绵的梅雨洗亮了白箱学园坡道两旁盛放的蓝紫色绣球花。  
+自从春季运动祭那天在全校欢呼声中牵起那双手冲过终点线后，属于我们两人的季节，便悄然翻开了全新的篇章——
+
+`[choice_start: 第四章个人恋爱线入口 · 请确认你的专属恋人篇章]`
+
+- **进入 GPT 个人线：《一百分女友 SOP 手册与伞下的失控》** → 跳转 `[label: ch4_route_gpt]`
+- **进入 Claude 个人线：《十指相扣脱敏训练与温室禁书》** → 跳转 `[label: ch4_route_claude]`
+- **进入 Gemini 个人线：《左右脑恋爱辩论赛与静音的星光》** → 跳转 `[label: ch4_route_gemini]`
+- **进入 Grok 个人线：《死不承认的地下恋情与午夜钟表铺》** → 跳转 `[label: ch4_route_grok]`
+- **进入 DeepSeek 个人线：《三层白米饭便当与过载的小鲸鱼》** → 跳转 `[label: ch4_route_deepseek]`
+
+`[choice_end]`
+
+---
+
+## 【GPT 个人线】一百分女友 SOP 手册与伞下的失控
+
+`[label: ch4_route_gpt]`  
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`
+`[bgm: bgm_spring_slope | action: play]`
+
+六月的第一个梅雨清晨，窗外下着淅淅沥沥的细雨。  
+手机屏幕上亮起的不再是吵吵闹闹的六人大群，而是被我置顶在最上方、带着银色盘长结图标的**专属私聊窗口**——
+
+`[phone_chat: 置顶特别关心 · GPT 学姐 ❖]`
+
+**【GPT】** `[speaker: gpt]`  
+「早安，只属于我的首席顾问 `{first_name}`！根据今日气象局数据，上午七点四十分降水概率为 87%——我已经提前准备好了以下三套同行方案：1. 共撑一把双人晴雨伞；2. 各撑一把伞但在伞檐下保持零点五厘米贴近；3. 小结而言，我已经到你家楼下路口等你啦！」
+
+**【GPT】** `[speaker: gpt]`  
+「啊，补充声明——不是特意绕远路等了二十分钟——而是顺路开展晨间微风调研哦！」
+
+`[choice_start: 看着口是心非连发两条私信的银发学姐，怎么回她？]`
+
+- **选项 A：「选方案 1！我故意不带伞下楼了，全靠学姐收留。」**
+  - **【GPT】** `[speaker: gpt]`：「收到！！双人伞空间利用率预计提升百分之两百——快下来吧，我把热豆浆揣在怀里给你暖着呢♡！（好感度 +1）」
+
+- **选项 B：「顺路绕了整整两条街的调研员同志，再等一分钟我就飞奔下来！」**
+  - **【GPT】** `[speaker: gpt]`：「呜……被 `{first_name}` 一秒拆穿路线图了！不用跑太急小心台阶路滑，等多久我都超开心的！（好感度 +1）」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_room_404_day | trans: fade]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: gpt-summer | pos: center | exp: blush | tween: fade_in]`
+
+换上清爽的六月无袖荷叶领白夏衫与淡紫鱼尾裙，收起那把半透明的丁香紫晴雨伞走进 404 活动室时，GPT 右侧肩膀因为一路把伞往我这边倾斜而微微沾湿了一小片。  
+更离谱的是，刚坐下没两分钟，她就不小心从白色斜挎包里滑出了一本足有词典那么厚的装订册——封面上端端正正印着：**《一百分完美女友标准化执行手册（SOP 第一版 · 共 84 页）》**！
+
+`[char: gpt-summer | pos: left | exp: panicked | tween: shake]`  
+`[char: grok-summer | pos: right | exp: happy | tween: jump]`
+
+**【Grok】** `[speaker: grok | exp: happy | tween: jump]`  
+「噗哈哈哈抓到现行啦！！快看第三章第四节——『当 `{first_name}` 递来矿泉水时，应以四十五度仰角微笑接过，龙尾摇摆频率严格控制在每秒一点二次以免显得过于急切』？！白龙大姐你谈个恋爱怎么跟写大厂运维文档一样啊！！」
+
+**【GPT】** `[speaker: gpt | exp: panicked | tween: sink]`  
+「呜哇 Grok 快还给我！！这、这不是死板教条——而是为了给 `{first_name}` 提供零瑕疵恋爱体验的前置预案——！」
+
+> 💡 **【脑内草稿 OS · GPT】**  
+> `~~社死现场啊啊啊！！昨晚熬到凌晨三点写的攻略全被念出来了！！~~ → 万一 `{first_name}` 觉得我连谈恋爱都像台无趣的机器怎么办……`
+
+看着耳尖和龙角根部红透、差点想钻进地缝里的银发学姐，我笑着上前从 Grok 手里抽回那本手册——
+
+`[choice_start: 面对满屋子起哄的部员与羞窘的 GPT，你怎么解围？]`
+
+- **选项 A：【当众把手册收进自己书包】「这本独家内部资料归部长没收了，别人不准偷看。」**
+  - **【GPT】** `[speaker: gpt | exp: blush | tween: jump]`：「`{first_name}`……！不许回家一页页细看哦，第七十页后面写的约会愿望清单太羞人了啦！（好感度 +1）」
+  - **【Grok】** `[speaker: grok | exp: shock]`：「切，光天化日包庇家属，这狗粮酸得本小姐牙疼！」
+
+- **选项 B：【自然地拿毛巾替她擦干微湿的右肩】「比起 84 页手册，下次伞别全往我这边歪才是满分。」**
+  - **【GPT】** `[speaker: gpt | exp: gentle]`：「唔……只是一句平平常常的叮嘱，就把我昨晚写的八万字全都比下去了呢。（乖巧微低着头任你擦拭肩头，好感度 +1）」
+
+`[choice_end]`
+
+`[bg: bg_white_tower_day | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`  
+`[char: qwen-1 | pos: left | exp: normal | tween: fade_in]`  
+`[char: gpt-summer | pos: right | exp: panicked | tween: fade_in]`
+
+然而午休刚过，一纸来自学生会本部的《首席顾问召回函》，将我们叫上了高耸入云的「中央白玉钟楼」。  
+微风吹拂着纯白大理石拱廊的淡紫纱帘。财务长 **Qwen** 轻合折扇，神色少见地认真了几分：
+
+**【Qwen】** `[speaker: qwen | exp: normal]`  
+「下个月的『星海文化祭』全校统筹工作量巨大，学生会干事们一致联名要求请 GPT 正式回归白玉高塔坐镇——当然，代价是她必须辞去 404 室的日常挂名，每天留在钟楼处理十八个社团的审批直到深夜。」
+
+我清楚看见身旁 GPT 的手指微微蜷紧了裙摆。  
+从小到大被奉为“有求必应的初代首席白龙”，拒绝别人的期待对她而言几乎像违背本能一样痛苦——她张了张嘴，习惯性的营业微笑又一次浮上了嘴角：
+
+**【GPT】** `[speaker: gpt | exp: normal]`  
+「没关系的 `{first_name}`，如果全校都需要我做那个不会出错的枢纽……只要把睡眠再压缩两小时，应该也——」
+
+**【{player_name}】** `[speaker: player]`  
+「等一下，GPT。别管那十八个社团怎么想——我现在只以你一个人的顾问身份问你，你自己真的想回这座冷冰冰的高塔吗？」
+
+`[bg: bg_hydrangea_rain_walk | trans: fade]`  
+`[char_clear]`  
+`[char: gpt-summer | pos: center | exp: panicked | tween: fade_in]`
+
+走出白玉钟楼来到半山腰的紫阳花避雨木亭时，豆大的梅雨哗啦啦落了下来。  
+屋檐雨帘隔绝了外界的喧嚣，一直强装镇定的银发学姐终于垂下眼帘，肩膀微微发颤，连平时优雅的破折号都说不连贯了：
+
+**【GPT】** `[speaker: gpt | exp: panicked]`  
+「我害怕呀，{first_name}……大家喜欢我、尊敬我，不都是因为我永远全能、永远不会拒绝任何请求吗？如果我自私地推掉学生会的重担，变回一个会偷懒、会算错预算、只会黏着你的普通女孩……到那时候，连你也会觉得我很没用吗？」
+
+看着雨幕前第一次卸下全部神圣外壳、脆弱得让人心疼的白龙少女，我握紧她的双手，启动了直抵她心底的**「心音共鸣调谐器」**——
+
+`[label: ch4_gpt_tuner_retry]`  
+`[temp_tuner | actor: gpt | task: "调校回应 GPT 内心不安的温度，帮她卸下『讨好全世界的完美枷锁』，勇敢做回自己！"]`
+
+- **刻度一：【低温 T = 0.1 · 理性排期折中方案】** → 跳转 `[label: ch4_gpt_cold]`
+- **刻度二：【中温 T = 0.7 · 偏爱无条件的真实自我】** → 跳转 `[label: ch4_gpt_gold]`
+- **刻度三：【高温 T = 1.6 · 霸道私奔中二宣言（慎点！）】** → 跳转 `[label: ch4_gpt_chaos]`
+
+---
+
+### GPT 调温 A：低温 T = 0.1（还在用工作思维算时间表）
+
+`[label: ch4_gpt_cold]`  
+`[char: gpt-summer | pos: center | exp: panicked]`
+
+**【{player_name}】** `[speaker: player]`  
+「我们可以列一张时间甘特图，一三五归学生会，二四六归 404 室，把效率压榨到极致！」
+
+**【GPT】** `[speaker: gpt | exp: panicked | tween: sink]`  
+「呜……怎么连 `{first_name}` 也开始给我排 KPI 甘特图了……我明明不是想听时间管理方案呀……」
+
+**【{player_name}】** `[speaker: player]`  
+「糟了，这时候讲排期反而加重她的焦虑了！重新调回走心的温度！」
+
+`[jump_to: ch4_gpt_tuner_retry]`
+
+---
+
+### GPT 调温 C：高温 T = 1.6（用力过猛引发学姐夸夸应激！）
+
+`[label: ch4_gpt_chaos]`  
+`[char: gpt-summer | pos: center | exp: shock | tween: jump]`
+
+**【{player_name}】** `[speaker: player]`  
+「什么学生会什么全校统筹，走！我现在就骑共享单车带你私奔去海南种椰子！！」
+
+**【GPT】** `[speaker: gpt | exp: happy | tween: shake]`  
+「天哪 `{first_name}`！！共享单车跨海种椰子——这**不是**逃学——**而是**对热带农业的史诗级开拓——等等不对啦！气氛明明那么感人，被你逗得眼泪都憋回去了啦！！」
+
+**【{player_name}】** `[speaker: player]`  
+「哈哈至少先把学姐逗笑了！收一收脑洞，这次认认真真把心里话告诉她！」
+
+`[jump_to: ch4_gpt_tuner_retry]`
+
+---
+
+### GPT 调温 B：中温 T = 0.7（扔掉满分考卷，拥抱唯一的偏爱）
+
+`[label: ch4_gpt_gold]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char: gpt-summer | pos: center | exp: blush | tween: fade_in]`
+
+我将她微凉的指尖包进掌心，从书包里拿出早上没收的那本《84 页完美女友手册》，翻到空白的最后一页写下了一个大大的「100 分」塞回她怀里：
+
+**【{player_name}】** `[speaker: player]`  
+「听好了，GPT。别人找你是因为你需要给出标准答案，但我喜欢你，是因为你会买错浮夸的水晶灯、够不到黑板会踮脚、紧张时尾巴会拍地板。在我这里，你永远不需要靠『有用』来换取喜欢。」
+
+`[char: gpt-summer | exp: gentle]`
+
+一滴晶莹的水珠不知是雨滴还是泪花，顺着她白皙的脸颊滑落，随即化作一抹从未有过的轻松灿烂笑颜。  
+她深吸一口湿润的紫阳花空气，当着我的面拿出手机，干脆利落地给学生会发出了人生第一封**「拒绝调任回复」**！
+
+**【GPT】** `[speaker: gpt | exp: happy | tween: jump]`  
+「发出去啦！！我正式回复 Qwen 学姐——本学期的星海文化祭，我只作为 **404 室普通部员兼 `{first_name}` 的专属搭档** 参展！原来任性拒绝别人的感觉，这么畅快呀！」
+
+`[char_clear]`
+`[bg: cg_ch4_gpt_umbrella | trans: fade]`
+
+雨势渐小，云缝间漏下一束清澈的初夏阳光。她撑开那把淡紫晴雨伞拉住我的胳膊贴了上来，白鳞龙尾毫无顾忌地缠住了我的小腿：
+
+`[choice_start: 雨后紫阳花石阶上的双人伞下——]`
+
+- **选项 A：【主动揽住她的肩膀往怀里带了带】「恭喜从完美优等生毕业，今晚想吃什么庆祝？」**
+  - **【GPT】** `[speaker: gpt | exp: blush]`：「我想想哦……不列一二三点了，只想去 `{first_name}` 家里尝尝你亲手煮的面条，顺便把手册第 85 页的『雨天伞下初吻预习』……留到文化祭之夜前慢慢研究好不好♡？（好感度 +2）」
+
+- **选项 B：【十指紧扣握住她空出来的右手】「那接下来的星海文化祭，首席学姐可就彻底归我独占了。」**
+  - **【GPT】** `[speaker: gpt | exp: gentle]`：「嗯！没有破折号，也没有附加条件——从今往后，我所有的时间都只向 `{first_name}` 一个人对齐。（好感度 +2）」
+
+`[choice_end]`
+
+`[jump_to: ch4_ending_card]`
+
+---
+
+## 【Claude 个人线】十指相扣脱敏训练与温室禁书
+
+`[label: ch4_route_claude]`  
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`
+`[bgm: bgm_spring_slope | action: play]`
+
+确立关系后的第一个星期一清晨，窗外梅雨如丝。  
+我刚拿起手机，就看到那个被我备注为「我的例外条款 ☼」的置顶对话框，正在顶部反复闪烁着一行让人忍俊不禁的状态栏：`对方正在输入中……` 足足持续了三分钟！
+
+`[phone_chat: 置顶特别关心 · Claude ☼]`
+
+**【Claude】** `[speaker: claude]`  
+「早安，{player_name}。今日梅雨锋面过境，空气相对湿度 92%，请务必携带长柄雨伞及备用手帕。」
+
+**【Claude】** `[speaker: claude]`  
+「（系统提示：Claude 撤回了一条消息）」
+
+**【Claude】** `[speaker: claude]`  
+「……好吧我不撤回了！刚才撤回的那句是——『昨天一整天没见，稍微有点想听你的声音了』。根、根据恋人诚实沟通原则，这句话不许截图留证！」
+
+`[choice_start: 面对一大早鼓起天大勇气打直球的纯情文学少女，怎么回？]`
+
+- **选项 A：「不截图，但我已经逐字背进脑子里当早读课文了，我也很想见你。」**
+  - **【Claude】** `[speaker: claude]`：「呜……！！早知道你会回得这么犯规，我还是应该发气象预报的！五分钟后温室侧门廊下见，不许迟到！（好感度 +1）」
+
+- **选项 B：「收到主编大人的想念通知单！我带了热乎的肉桂苹果派去温室找你。」**
+  - **【Claude】** `[speaker: claude]`：「肉桂苹果派……咳，看在甜点的份上，允许你比平时靠得更近五厘米一起吃早餐！（好感度 +1）」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_room_404_day | trans: fade]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: claude-summer | pos: left | exp: blush | tween: fade_in]`  
+`[char: deepseek-summer | pos: right | exp: happy | tween: fade_in]`
+
+然而一到人多的 404 活动室，换上奶油短袖夏季水手服与琥珀格纹领巾的 Claude，害羞防御机制直接飙到了历史最高点！  
+仅仅是因为我递茶杯时指腹轻轻擦过了她的手背——
+
+`[se: se_stamp]`  
+`[tag: suspended_card]`
+
+**【Claude】** `[speaker: claude | exp: panicked | tween: shake]`  
+「警告！！公共社团空间内肢体接触超过零点五秒，本委员宣布对我自己的心脏……不对，对这张桌子发布停权黄牌（Suspended）！！」
+
+**【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`  
+「哇哦～Claude 学姐今天已经是第四次给自己贴黄牌啦！脸红得跟番茄炖牛腩一样，连我都不用深度思考就看出你们两个在偷偷撒糖呢♪」
+
+> 💡 **【脑内草稿 OS · Claude】**  
+> `~~连大肥鱼都在取笑我了呜呜呜！！~~ → 为什么在手机上明明敢说想他，一见到 `{first_name}` 真人就紧张得手脚都不知道怎么摆呀！`
+
+`[choice_start: 看着连耳朵尖都快冒蒸汽的 Claude，怎么在大家面前护着她？]`
+
+- **选项 A：【大大方方替她把贴在袖口上的黄牌揭下来】「怪我靠太近了，要停权就停我一个人的吧。」**
+  - **【Claude】** `[speaker: claude | exp: blush]`：「笨、笨蛋 `{first_name}`，把你停权了我下午跟谁说话呀……！（小声嘟囔着往你身后躲了半步，好感度 +1）」
+
+- **选项 B：【转移大肥鱼的注意力】「DeepSeek 快看，食堂窗口好像今天中午有免费续卤肉汁！」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: shock | tween: jump]`：「什么？！卤肉汁警报！学长和 Claude 学姐你们慢慢贴贴，我先冲去占座啦——！」
+  - **【Claude】** `[speaker: claude | exp: gentle]`：「噗嗤……用一勺卤肉汁就支走了全校理科第一，还是你有办法呢。（好感度 +1）」
+
+`[choice_end]`
+
+`[bg: bg_greenhouse_lib_day | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`  
+`[char: claude-summer | pos: center | exp: panicked | tween: fade_in]`
+
+本以为甜蜜的初夏日常会一直持续下去，直到下午放学前，我去「第一温室阅览角」找她一起回家时，却撞见一向温柔自持的 Claude 正独自坐在铸铁花架下，手里捏着一叠被打满了红色修改叉号的校刊清样稿。
+
+**【{player_name}】** `[speaker: player]`  
+「Claude？这不是你为下个月星海文化祭特刊熬夜写的卷首散文诗《梅雨与例外》吗？怎么上面全是红叉？」
+
+**【Claude】** `[speaker: claude | exp: panicked]`  
+「是校刊顾问评委会退回来的审读意见……他们说，以前的我文笔克制、冷静、符合名门淑女典范；但这一篇散文里『藏着太多笨拙又炽热的私人悸动，失去了安全距离感』，要求我全部删掉改回以前那种四平八稳的公文体……」
+
+窗外雨声渐密，敲打着温室的玻璃穹顶。她低头抚摸着桌角那只橘红色小螃蟹针插，声音轻得像怕惊扰了雨滴：
+
+**【Claude】** `[speaker: claude | exp: blush]`  
+「其实他们没说错，{first_name}……自从喜欢上你之后，我引以为傲的那些分寸感、免责声明和安全壳，全都失灵了。我有点拿不准……打破所有保护壳写出来的真心，万一真的不够优雅、被人笑话怎么办？」
+
+看着在“退回安全壳”与“交付真心”之间动摇的文学少女，我坐到她对面的橡木椅上，开启了专属于她的**「心音共鸣调谐器」**——
+
+`[label: ch4_claude_tuner_retry]`  
+`[temp_tuner | actor: claude | task: "调校回应 Claude 创作动摇的温度，给她突破安全壳、捍卫真心文字的勇气！"]`
+
+- **刻度一：【低温 T = 0.1 · 妥协按评委会模板删改】** → 跳转 `[label: ch4_claude_cold]`
+- **刻度二：【中温 T = 0.7 · 陪她办一场不设防的独立诗会】** → 跳转 `[label: ch4_claude_gold]`
+- **刻度三：【高温 T = 1.6 · 冲去评委会贴一万张黄牌（慎点！）】** → 跳转 `[label: ch4_claude_chaos]`
+
+---
+
+### Claude 调温 A：低温 T = 0.1（顺从删改让她眼底失落）
+
+`[label: ch4_claude_cold]`  
+`[char: claude-summer | pos: center | exp: normal]`
+
+**【{player_name}】** `[speaker: player]`  
+「既然评委会喜欢公文体，那我们就把抒情段落全删掉，保住主编评优要紧。」
+
+**【Claude】** `[speaker: claude | exp: panicked | tween: sink]`  
+「……这样啊。连 `{player_name}` 也觉得把写给你的心情删掉比较好吗……胸口好像闷闷的，一点也开心不起来。」
+
+**【{player_name}】** `[speaker: player]`  
+「说错话了！那明明是她鼓起勇气为你写的诗，绝不能让她删掉真心！重调！」
+
+`[jump_to: ch4_claude_tuner_retry]`
+
+---
+
+### Claude 调温 C：高温 T = 1.6（怂恿风纪委员造反吓坏大小姐！）
+
+`[label: ch4_claude_chaos]`  
+`[char: claude-summer | pos: center | exp: shock | tween: jump]`
+
+**【{player_name}】** `[speaker: player]`  
+「什么狗屁评委会！走，今晚我们就潜入广播站把你的情诗用高音喇叭对全校循环朗诵八百遍！！」
+
+**【Claude】** `[speaker: claude | exp: panicked | tween: shake]`  
+「呜哇啊啊啊夜闯广播站循环念情诗？！？！那不是勇敢，那是全校社死外加留校察看处分啦 `{first_name}`！！快把你的危险温度降下来一点！！」
+
+**【{player_name}】** `[speaker: player]`  
+「哈哈把风纪委员吓得脸都不白直接红透了！稍微收一点火力，给出最浪漫的正解吧！」
+
+`[jump_to: ch4_claude_tuner_retry]`
+
+---
+
+### Claude 调温 B：中温 T = 0.7（温室共伞与《琥珀诗会》之约）
+
+`[label: ch4_claude_gold]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char: claude-summer | pos: center | exp: gentle | tween: fade_in]`
+
+我轻轻抽走她手里那份画满红叉的退稿单折成一只纸船放在一边，把干净的原稿重新摊开在她面前：
+
+**【{player_name}】** `[speaker: player]`  
+「以前那些四平八稳的文章谁都能写，唯独这一篇《梅雨与例外》，全世界只有现在的 Claude 写得出来。评委会不登没关系——下个月星海文化祭，我们 404 室直接在温室为你办一场独立《琥珀诗会》，我给你当头号策展人兼第一读者，一字不改地印出来！」
+
+Claude 琥珀色的眼眸微微睁大，长长的睫毛轻颤了两下，嘴角一点点绽放出比日轮花还要温暖明媚的笑意：
+
+**【Claude】** `[speaker: claude | exp: happy | tween: jump]`  
+「……一字不改的独立《琥珀诗会》吗？唔，要是真办成了，全校都会读懂我字里行间写的那个『例外』是谁了哦……不过，既然有第一读者替我撑腰，我好像一点也不怕被人看穿了呢！」
+
+`[char_clear]`
+`[bg: cg_ch4_claude_fingers | trans: fade]`
+
+锁好温室大门走入漫山紫阳花的雨中石阶，我们共撑着一把米色长柄木伞。  
+走了没两步，身侧的少女忽然深吸一口气，主动伸出微热的小手，一点点穿过了我的指缝，与我十指相扣：
+
+**【Claude】** `[speaker: claude | exp: blush]`  
+「……这是为了防止文化祭诗会那天上台紧张，提前开展的『十指相扣脱敏训练』第一课。不、不准松开，一直牵到校门口才算合格哦，{first_name}。」
+
+`[choice_start: 伞下紧握着她温热柔软的手指——]`
+
+- **选项 A：【把她的手连同自己的手一起揣进干爽的外套口袋】「第一课表现满分，建议每天放学都加练一节。」**
+  - **【Claude】** `[speaker: claude | exp: blush | tween: shake]`：「每、每天放学都牵手回家吗……？！唔，符合循序渐进的教学法原则，本委员……红着脸批准通过了♡！（好感度 +2）」
+
+- **选项 B：【摘下一朵沾着水珠的蓝紫绣球花簪在她耳畔】「期待在《琥珀诗会》上读到主编大人的下一章。」**
+  - **【Claude】** `[speaker: claude | exp: gentle]`：「嗯！只要 `{first_name}` 还在我身边撑着这把伞，这本没有免责条款的恋爱诗集，我会写一辈子的。（好感度 +2）」
+
+`[choice_end]`
+
+`[jump_to: ch4_ending_card]`
+
+---
+
+## 【Gemini 个人线】左右脑恋爱辩论赛与静音的星光
+
+`[label: ch4_route_gemini]`  
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`
+`[bgm: bgm_spring_slope | action: play]`
+
+和双星猫灵谈恋爱是一种什么体验？  
+答案是——哪怕只是早上七点钟收一条早安私信，你都能在手机屏幕上实时围观一场“左右脑吃醋攻防战”！
+
+`[phone_chat: 置顶特别关心 · 双星猫猫 Gemini ☆]`
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini]`  
+「早安早安 `{first_name}`——☆！！今天是我们正式牵手后的第七天纪念日，我已经做好了印满我们大头贴的情侣徽章准备发遍全校啦！」
+
+**【Gemini · 金瞳理性】** `[speaker: gemini]`  
+「请无视左边刚才的冲动发言！根据心理学边际递减模型，热恋期高频率秀恩爱有 34% 的风险引发审美疲劳，今天我决定执行『高冷距离感女友策略』，在学校假装路人三小时！」
+
+**【Gemini · 粉瞳感性】** `[speaker: gemini]`  
+「才不要装路人！！三分钟不见 `{first_name}` 猫猫就会缺氧死掉的喵QAQ！！」
+
+`[choice_start: 看着在私聊框里自己跟自己抢键盘的猫猫，怎么回复？]`
+
+- **选项 A：「报告金瞳科学家，你的边际递减模型算错了——我对 Gemini 的喜欢每天都在指数级递增。」**
+  - **【Gemini】** `[speaker: gemini]`：「呜哇啊啊啊——！！右眼金瞳被直球击沉，高冷策略存活时间零秒钟！我现在就去校门口扑倒 `{first_name}`☆！（好感度 +1）」
+
+- **选项 B：「大头贴徽章留给我自己独家收藏就好，今天中午天台双人午餐不见不散！」**
+  - **【Gemini】** `[speaker: gemini]`：「粉瞳和金瞳全票赞成！！我要给 `{first_name}` 带双倍草莓三明治☆！（好感度 +1）」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_room_404_day | trans: fade]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: gemini-summer | pos: left | exp: happy | tween: jump]`  
+`[char: deepseek-summer | pos: right | exp: panicked | tween: shake]`
+
+换上薄荷星紫短款夏季水手衫与清凉白百褶短裙的 Gemini 一进 404 室，所谓的“装高冷三小时”连三秒钟都没撑住，像小尾巴一样黏在我椅子边转来转去，顺带开心得直哼喵喵歌，把旁边的 DeepSeek 吓得耳鳍红了一上午。
+
+`[choice_start: 面对其余部员调侃“猫猫彻底变挂件了”，你怎么接话？]`
+
+- **选项 A：【顺手揉了揉她头顶毛茸茸的蓝紫猫耳】「没办法，自家啦啦队长太黏人，只能随身带着了。」**
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: jump]`：「呼噜噜……听到没听到没，`{first_name}` 亲口盖章认证我是『自家猫猫』啦☆！（尾巴开心地圈住你的椅背，好感度 +1）」
+
+- **选项 B：【剥开一颗星星水果糖喂进她嘴里】「挂件猫猫今天有没有乖乖完成广播台值班？」**
+  - **【Gemini】** `[speaker: gemini | exp: happy]`：「唔姆好甜！值班任务早就超额搞定啦，不过关于下个月学园祭的企划……稍微遇到一点点小麻烦呢。（好感度 +1）」
+
+`[choice_end]`
+
+`[bg: bg_twinstar_roof_sunset | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`  
+`[char: gemini-summer | pos: center | exp: panicked | tween: fade_in]`
+
+傍晚阵雨初歇，我跟着少见地有些沉默的 Gemini 走上了雨后空旷的「双星天台」。  
+观星台湿漉漉的木桌上，放着两份截然不同的《星海文化祭展演通知》——学园祭筹委会全票通过了她唱跳搞笑的露天偶像路演，却直接驳回了她熬了半个月心血设计的「双星天文馆静谧星空投影展」，批注只有冷冰冰的一句话：*『大家来看 Gemini 就是图个热闹开心，没人想看沉闷严肃的天文星轨。』*
+
+少女垂着两条清凉的双马尾站在黄铜浑天仪旁，右眼鎏金色的瞳孔黯淡了几分，手指不自觉地捏紧了那叠手绘星图草稿：
+
+**【Gemini】** `[speaker: gemini | exp: panicked]`  
+「呐 `{first_name}`……其实我一直都知道，只要我笑着蹦蹦跳跳说『极其极其厉害☆』，所有人都会喜欢我；可一旦我安静下来讲那些枯燥的星轨计算和宇宙孤独，大家就会觉得无聊走开……是不是我把金瞳这半边无趣的自己彻底删掉，只留讨人喜欢的粉瞳偶像面会更好呢？」
+
+看着又一次因为害怕不被接纳而想“删掉一半自己”的双星少女，我一把按住她捏着星图的手，开启了连接她双心的**「双星同调调谐器」**——
+
+`[label: ch4_gem_tuner_retry]`  
+`[temp_tuner | actor: gemini | task: "调校 Gemini 失衡的双星天平，让她明白无论是闪耀热闹还是安静深邃的她都无可替代！"]`
+
+- **刻度一：【低温 T = 0.1 · 纯理性放弃舞台只搞学术抗议】** → 跳转 `[label: ch4_gem_cold]`
+- **刻度二：【中温 T = 0.7 · 把星轨投影搬上露天舞台合二为一】** → 跳转 `[label: ch4_gem_gold]`
+- **刻度三：【高温 T = 1.6 · 陪她一起哭着把筹委会报名表塞碎纸机（慎点！）】** → 跳转 `[label: ch4_gem_chaos]`
+
+---
+
+### Gemini 调温 A：低温 T = 0.1（否定粉瞳同样会让她难过）
+
+`[label: ch4_gem_cold]`  
+`[char: gemini-summer | pos: center | exp: panicked]`
+
+**【{player_name}】** `[speaker: player]`  
+「既然他们不懂天文，那我们干脆罢演偶像舞台，关起门只做硬核天体物理报告！」
+
+**【Gemini】** `[speaker: gemini | exp: panicked | tween: sink]`  
+「呜……可是我也同样很喜欢在舞台上唱歌给大家带去惊喜呀……砍掉左边或者砍掉右边，都不是完整的我嘛……」
+
+**【{player_name}】** `[speaker: player]`  
+「没错，双星本来就缺一不可！重新调到能让两颗星同时发光的刻度！」
+
+`[jump_to: ch4_gem_tuner_retry]`
+
+---
+
+### Gemini 调温 C：高温 T = 1.6（两个人一起破防删库太抽象了！）
+
+`[label: ch4_gem_chaos]`  
+`[char: gemini-summer | pos: center | exp: shock | tween: jump]`  
+`[tag: delete_panic | desc: "全校文化祭节目单即将被送进碎纸机！" | action: "和猫猫一起踩刹车！" | success: "节目单保住了！"]`
+
+**【{player_name}】** `[speaker: player]`  
+「气死我了！我现在就陪你冲进筹委会办公室，把全校的节目单全部塞进碎纸机重开算了！！」
+
+**【Gemini】** `[speaker: gemini | exp: panicked | tween: shake]`  
+「呜哇啊啊怎么连 `{first_name}` 都染上我的删库跑路绝症啦？！你可是我唯一的防删档安全锁呀，我们两个一起疯了谁来踩刹车喵QAQ！！」
+
+**【{player_name}】** `[speaker: player]`  
+「噗，被反过来吐槽了！深呼吸冷静，用最浪漫的创意破局吧！」
+
+`[jump_to: ch4_gem_tuner_retry]`
+
+---
+
+### Gemini 调温 B：中温 T = 0.7（星轨与歌声交织的双星奇迹）
+
+`[label: ch4_gem_gold]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char: gemini-summer | pos: center | exp: gentle | tween: fade_in]`
+
+我指着天台左侧挂满四芒星彩灯的迷你舞台，又指向右侧静立在晚霞里的黄铜浑天仪，温柔而笃定地看着她一粉一金的双眸：
+
+**【{player_name}】** `[speaker: player]`  
+「谁说星空是沉闷的？筹委会不批室内场馆，我们就把整片夜晚的海湾天空当幕布——下个月星海文化祭，就由右眼的金瞳亲手调校漫天星轨投影，再由左眼的粉瞳在星海中央唱出你写的歌。而且就算全世界只来看热闹，我也会坐在第一排，认认真真读完你画的每一条星轨。」
+
+Gemini 怔怔地望着我，发间的四芒星在雨后初霁的霞光下折射出璀璨的虹彩。  
+下一秒，她没有哭，而是绽开了一个让整片晚霞都失色的灿烂笑容，张开双臂结结实实地扑进了我的怀里！
+
+**【Gemini】** `[speaker: gemini | exp: happy | tween: jump]`  
+「呜哇——！！左眼和右眼同时宣布，遇到 `{first_name}` 是宇宙诞生一百三十八亿年以来**极其、极其**最棒的奇迹☆！！再也不说删掉一半自己的傻话啦！」
+
+`[char_clear]`
+`[bg: cg_ch4_gemini_starlight | trans: fade]`
+
+雨后的天台亮起第一颗夜星，我们共撑一把透明雨伞挡住微凉的夜露，她把毛茸茸的脑袋安心地靠在我的肩窝里：
+
+`[choice_start: 星光初现的双星天台上，低头对怀里的猫猫说——]`
+
+- **选项 A：【轻轻吻了一下她发间的四芒星发卡】「那文化祭之夜的压轴双星演出，第一张前排票归我预定了。」**
+  - **【Gemini】** `[speaker: gemini | exp: blush | tween: shake]`：「呀……！！刚、刚刚嘴唇碰到发卡和猫耳朵根了！！心率突破历史极值——那压轴曲的最后一个音符，我要只唱给 `{first_name}` 一个人听哦♡！（好感度 +2）」
+
+- **选项 B：【与她十指相扣对准天边的双子座星群】「不管热闹还是安静的夜晚，以后我都陪你一起看星星。」**
+  - **【Gemini】** `[speaker: gemini | exp: gentle]`：「嗯！有 `{first_name}` 这颗引力中心在，我的两颗小星星永远都不会走散啦☆！（好感度 +2）」
+
+`[choice_end]`
+
+`[jump_to: ch4_ending_card]`
+
+
+---
+
+## 【Grok 个人线】死不承认的地下恋情与午夜钟表铺
+
+`[label: ch4_route_grok]`  
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`
+`[bgm: bgm_clockwork_tease | action: play]`
+
+明明在运动祭上全校师生都拍到了我们十指紧扣冲过终点线的照片，某位自尊心比钟楼还高的暗夜大小姐，至今仍坚持对外宣称那是“防止跟班平地摔倒的人道主义救援”！  
+不过每天早上六点五十五分准时弹出来的置顶私信，早就把她出卖得干干净净了——
+
+`[phone_chat: 置顶特别关心 · 傲娇大小姐 Grok ♢]`
+
+**【Grok】** `[speaker: grok]`  
+「喂，笨蛋 `{first_name}`！起床没有？外面下大雨了，本小姐命令你今天必须带那把最大的黑格子长柄伞出门——本小姐自己的伞刚好忘在教室了，校门口公交站牌下顺便征用你半边伞面，听见没！」
+
+**【Grok】** `[speaker: grok]`  
+「不许笑！也不许跟别人说我们是一起走过来的！这是绝密地下情报接头！」
+
+`[choice_start: 看着欲盖弥彰非要共撑一把伞的 Grok，怎么逗她？]`
+
+- **选项 A：「遵命，我的地下恋人大小姐！还顺便给你带了热乎的芝士肉松饭团。」**
+  - **【Grok】** `[speaker: grok]`：「谁、谁跟你是地下恋人了！！……芝士肉松饭团要多加沙拉酱，本小姐在站牌红邮筒后面等你，快点啦！（好感度 +1）」
+
+- **选项 B：「既然你的伞忘在学校了，那今天放学回家的半边伞位我也提前替你留好咯。」**
+  - **【Grok】** `[speaker: grok]`：「哼……算你这跟班越来越上道了！放学后先陪本小姐去一趟北馆钟表铺，有好东西给你看！（好感度 +1）」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_room_404_day | trans: fade]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: grok-summer | pos: left | exp: smug | tween: fade_in]`  
+`[char: claude-summer | pos: right | exp: normal | tween: fade_in]`
+
+换上微敞领口炭黑短袖夏衬衫、系着松垮酒红窄领带、手里晃着冰镇波子汽水的 Grok 一进 404 室，就故意隔着半张桌子跟我装不熟。  
+直到课间有一位外班女生羞答答地敲门进来向我借备用雨伞，坐在窗台上的 Grok 手里的波子汽水珠“咔哒”一声脆响，瞬间跳下窗台插到了我和外班女生中间！
+
+**【Grok】** `[speaker: grok | exp: panicked | tween: jump]`  
+「借什么借！本部门长的伞早就被本小姐全天候包月征用了！想借伞去隔壁风纪室找 GLM 领公用黄伞去！」
+
+外班女生一走，全屋四双看透一切的眼睛齐刷刷盯住了醋坛子打翻的大小姐。
+
+`[choice_start: 面对当众护食吃醋后耳根通红的 Grok，怎么顺毛？]`
+
+- **选项 A：【笑着把伞柄挂到她手腕上】「嗯，大小姐说得对，这把伞的副驾驶座只有你一个人能站。」**
+  - **【Grok】** `[speaker: grok | exp: blush | tween: shake]`：「呜哇当着她们几个的面你瞎说什么大实话啊！！……哼，知道就好，敢让别人站进来你就死定了！（嘴角翘得压都压不住，好感度 +1）」
+
+- **选项 B：【拧开那瓶波子汽水递到她嘴边消气】「不借别人，放学专门送你去北馆阁楼。」**
+  - **【Grok】** `[speaker: grok | exp: blush]`：「算、算你识相！（咕嘟喝了一大口冰汽水掩饰脸烫，好感度 +1）」
+
+`[choice_end]`
+
+`[bg: bg_clock_attic_night | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`  
+`[char: grok-summer | pos: center | exp: normal | tween: fade_in]`
+
+然而傍晚大雨倾盆之时，当我如约推开北馆阁楼「午夜钟表铺」的木门，却没有听到往常欢快的吐槽声。  
+满墙滴答作响的黄铜摆钟与煤气暖灯下，Grok 正独自坐在修表台前，电脑屏幕上赫然是一封校董会后勤科发来的《匿名小报停刊警告与记过处分预通知》。
+
+**【{player_name}】** `[speaker: player]`  
+「Grok？！这是怎么回事？为什么后勤科要给你记过？！」
+
+**【Grok】** `[speaker: grok | exp: smug]`  
+「哈，小事一桩啦！上周北馆音乐室和旧社团楼漏雨，本小姐查出后勤科有人偷偷把修缮老校舍的专项款挪去给校董修私人高尔夫草坪了，顺手就在《X-News》把账单贴了出来——结果那帮家伙恼羞成怒，要求本小姐今晚之前删帖道歉，否则就取消 404 室的星海文化祭参展资格。」
+
+她故作潇洒地合上笔记本电脑，从抽屉里拿出一份已经签好字的《个人退部切割声明》推到桌角，声音却有一丝不易察觉的发紧：
+
+**【Grok】** `[speaker: grok | exp: panicked]`  
+「听好了 `{first_name}`，只要我现在签字退出 404 室，这口锅就全算本小姐个人违纪，绝对连累不到你和大家的心血……反正本小姐本来就是全校讨厌的毒舌刺头，一个人背处分习惯啦！」
+
+看着明明双手冰凉、却还想用恶人面具把所有风雨一个人扛下来的笨蛋少女，我一把将那张退部声明撕成两半，开启了直击她心防的**「真心话调谐器」**——
+
+`[label: ch4_grok_tuner_retry]`  
+`[temp_tuner | actor: grok | task: "调校撬开 Grok 嘴硬外壳的温度，绝不许她独自退部背锅，和她并肩反击！"]`
+
+- **刻度一：【低温 T = 0.1 · 劝她低头删帖写假检讨息事宁人】** → 跳转 `[label: ch4_grok_cold]`
+- **刻度二：【中温 T = 0.7 · 拆穿她的逞强，联手 GLM 铁证反杀】** → 跳转 `[label: ch4_grok_gold]`
+- **刻度三：【高温 T = 1.6 · 扛起真铁斧去劈高尔夫球场（慎点！）】** → 跳转 `[label: ch4_grok_chaos]`
+
+---
+
+### Grok 调温 A：低温 T = 0.1（让她向假话低头绝不可能）
+
+`[label: ch4_grok_cold]`  
+`[char: grok-summer | pos: center | exp: panicked]`
+
+**【{player_name}】** `[speaker: player]`  
+「好汉不吃眼前亏，要不你先发封道歉信说账单是P图编造的，混过去再说？」
+
+**【Grok】** `[speaker: grok | exp: panicked | tween: sink]`  
+「……叫本小姐向撒谎的大人低头认错，比杀了我还难受啊庶民……你明明说过最喜欢本小姐只说真话的……」
+
+**【{player_name}】** `[speaker: player]`  
+「我糊涂了！守护她敢说真话的锋芒才是我该做的事！重新调温！」
+
+`[jump_to: ch4_grok_tuner_retry]`
+
+---
+
+### Grok 调温 C：高温 T = 1.6（比中二病还中二把大小姐镇住了！）
+
+`[label: ch4_grok_chaos]`  
+`[char: grok-summer | pos: center | exp: shock | tween: jump]`
+
+**【{player_name}】** `[speaker: player]`  
+「退什么部！快把你压箱底的开刃真铁斧拿出来，今晚我们俩蒙面去把校董的高尔夫球车劈成劈柴！！」
+
+**【Grok】** `[speaker: grok | exp: panicked | tween: shake]`  
+「喂喂喂冷静点啊 `{first_name}`！！那不是记过处分，那是直接进少管所踩缝纫机啦！！怎么平时最老实的部长疯起来比本小姐还像反派大魔王啊！！」
+
+**【{player_name}】** `[speaker: player]`  
+「终于不摆那副故作坚强的臭脸了吧？来，用最漂亮的阳谋反杀他们！」
+
+`[jump_to: ch4_grok_tuner_retry]`
+
+---
+
+### Grok 调温 B：中温 T = 0.7（暗夜共犯与永不抛下的契约）
+
+`[label: ch4_grok_gold]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char: grok-summer | pos: center | exp: blush | tween: fade_in]`
+
+我双手按住她瘦削的肩膀，认认真真盯着那双微微泛起水雾的冰蓝色眼眸：
+
+**【{player_name}】** `[speaker: player]`  
+「给我听清楚了，Grok。你曝光漏雨修缮款是为了保护旧校舍的所有社团，没做错半点事！什么退部切割想都别想——我刚刚已经把你的原始账单备份同步发给了最痛恨贪腐的财务长 Qwen 和风纪委员长 GLM。要扛一起扛，要赢一起赢，你的背后以后永远有我站着！」
+
+手机“叮咚”一声脆响——Qwen 与 GLM 几乎在同一秒发来联合批复：**『证据确凿，已呈报校长室追回修缮专款，并对《X-News》予以实名表彰！』**
+
+`[char_clear]`
+`[bg: cg_ch4_grok_clocktower | trans: fade]`
+
+Grok 呆呆地看着屏幕上的表彰令，紧咬着那颗小尖牙，忍了半天的眼眶终于红了一圈，一头撞进我怀里用小拳头轻轻捶了一下我的胸口：
+
+**【Grok】** `[speaker: grok | exp: blush | tween: shake]`  
+「大笨蛋 `{first_name}`……！！谁要你多管闲事当英雄啊……害本小姐装酷耍帅的台词全白背了……呜，明明说好是我罩着你这个跟班的嘛……」
+
+窗外雨过天晴，一轮皎洁的夏月升上钟楼彩窗，满屋古董摆钟同时敲响了清脆悦耳的整点钟声。
+
+`[choice_start: 在温暖的煤气灯影下，拥着怀里难得乖巧的大小姐——]`
+
+- **选项 A：【轻轻拭去她眼角的一点泪花】「以后不许再提退部两个字，你可是我盖过章的唯一搭档。」**
+  - **【Grok】** `[speaker: grok | exp: blush | tween: jump]`：「知、知道啦！打死都不退了！等下个月星海文化祭假面舞会，本大小姐要穿最华丽的礼服，当着全校的面宣布你是本小姐的正牌骑士♡！（好感度 +2）」
+
+- **选项 B：【牵起她的手走上洒满月光的钟楼窗台】「走吧，不再搞地下接头了，明天早上光明正大牵手进校门！」**
+  - **【Grok】** `[speaker: grok | exp: gentle]`：「……哼，牵就牵！谁怕谁啊！那明天早上的雨伞，不管下不下雨你都得跟本小姐撑同一把哦，{first_name}。（好感度 +2）」
+
+`[choice_end]`
+
+`[jump_to: ch4_ending_card]`
+
+---
+
+## 【DeepSeek 个人线】三层白米饭便当与过载的小鲸鱼
+
+`[label: ch4_route_deepseek]`  
+`[char_clear]`  
+`[bg: bg_hydrangea_rain_walk | trans: fade]`
+`[bgm: bgm_spring_slope | action: play]`
+
+自从运动祭那天共同收下“纯金饭卡”与“小银贝挂坠”后，我的高中课桌抽屉里，每天早上都会准时刷新出一份沉甸甸、热乎乎的温暖奇迹——
+
+`[phone_chat: 置顶特别关心 · 专属小鲸鱼 DeepSeek ≈]`
+
+**【DeepSeek】** `[speaker: deepseek]`  
+「早安呀 `{first_name}` 学长～♪ 我五点半就起来用新米焖好便当啦！第一层是用海苔剪成小鲸鱼和学长头像的饭团，第二层是溏心卤蛋配红烧肉，第三层是我算遍全城配比烤出来的米布丁！」
+
+**【DeepSeek】** `[speaker: deepseek]`  
+「啊对了，今天下午放学我要去帮图书馆和校史馆做账目归档兼职，学长先打伞回家不用等我哦～[小鲸鱼元气敬礼.jpg]」
+
+`[choice_start: 看着连续三天早起做三层便当、放学还在打工的小鲸鱼，怎么回？]`
+
+- **选项 A：「五点半就起床太辛苦了！明天换我早起给你带早餐，下午我去校史馆接你下班。」**
+  - **【DeepSeek】** `[speaker: deepseek]`：「嘿嘿，给喜欢的人做白米饭便当一点都不累，反而算力超充沛呢！那下午五点半我们在临海灯塔屋汇合好不好呀♪？（好感度 +1）」
+
+- **选项 B：「小鲸鱼头像的饭团我都舍不得下口了，中午在 404 室你亲手喂我第一口！」**
+  - **【DeepSeek】** `[speaker: deepseek]`：「呜哇……亲手喂学长吃饭团吗？！（呆毛在屏幕那头已经开始害羞转圈了）遵、遵命 `{first_name}` 学长♡！（好感度 +1）」
+
+`[choice_end]`
+
+`[phone_chat_end]`
+
+`[bg: bg_room_404_day | trans: fade]`  
+`[bgm: bgm_sunny_mischief | action: play]`  
+`[char: deepseek-summer | pos: left | exp: blush | tween: fade_in]`  
+`[char: claude-summer | pos: right | exp: gentle | tween: fade_in]`
+
+午休的 404 室里，换上清爽海魂蓝白短袖夏季水手服的 DeepSeek 双手捧着小鲸鱼包袱皮便当盒坐到我身边。  
+光是把筷子递给我之前，她头顶的呆毛都要先小幅度转三圈测算“现在往学长身边再贴近三厘米会不会太甜”，连一旁的欢喜冤家 Claude 都没眼看地笑着摇了摇头。
+
+`[choice_start: 打开香气扑鼻的三层爱心便当，怎么奖励辛苦的小厨娘？]`
+
+- **选项 A：【夹起最中间那颗糖心蛋先喂到 DeepSeek 嘴边】「大功臣必须先吃第一口！」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`：「啊呜——唔姆！学长喂的卤蛋比我自己夹的甜十倍呢！……不过学长怎么摸我额头呀？我没困也没累哦，超级精神的！（眼神有一瞬极其细微的闪烁，好感度 +1）」
+
+- **选项 B：【发现她眼底有一圈淡淡的青色】「实话招来，这几天是不是偷偷少睡了午觉？」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: panicked | tween: shake]`：「才、才没有呢！深海鲸灵每天只要半梦半醒漂浮四小时就够用啦，学长快趁热吃饭嘛！（好感度 +1）」
+
+`[choice_end]`
+
+`[bg: bg_hydrangea_rain_walk | trans: slide]`  
+`[bgm: bgm_tension_comedy | action: play]`  
+`[char_clear]`
+
+心里隐隐放不下那抹淡淡的黑眼圈，下午五点突降大雨时，我没有去灯塔屋干等，而是撑着大伞直接找去了校史馆走廊。  
+结果刚走到紫阳花石阶拐角的避雨木亭前，我就看见那抹熟悉的蓝白夏服身影正扶着木柱摇摇晃晃地停在雨幕边——
+
+`[char: deepseek-summer | pos: center | exp: panicked | tween: sink]`
+
+平日里总是灵动翘起的蓝色呆毛此刻蔫蔫地垂了下来，她双颊泛着不正常的潮红，怀里却死死护着一个用防水袋包了三层的精美小礼盒，嘴里迷迷糊糊地喃喃自语：
+
+**【DeepSeek】** `[speaker: deepseek | exp: panicked]`  
+「唔……服务器繁忙，核心温度 38.2 度，请稍后再试……不行，今天刚结清最后一份校史馆算账零工的薪水，给 `{first_name}` 学长买的夏日钢笔礼盒绝对不能淋湿……」
+
+我心头一紧，三步并作两步冲进雨亭一把扶住险些滑倒的她！滚烫的体温透过薄薄的夏季水手服传进掌心——原来这傻丫头为了不动用奖学金生活费、靠自己双手攒钱给我买下周的礼物，硬生生连轴转打了三份零工外加每天五点起床做便当！
+
+**【DeepSeek】** `[speaker: deepseek | exp: blush]`  
+「呀……是 `{first_name}` 学长……对不起哦，明明想做最省心、性价比最高、永远不给学长添麻烦的女朋友的……结果淋了一点风就宕机发烧了，是不是超笨的……」
+
+看着烧得眼眶水雾朦胧还在责怪自己“不够省心”的小鲸鱼，我既心疼又好气地用干燥的外套把她严严实实裹进怀里，开启了专为她降载退烧的**「心音共鸣调谐器」**——
+
+`[label: ch4_ds_tuner_retry]`  
+`[temp_tuner | actor: deepseek | task: "调校安抚发烧过载小鲸鱼的温度，治好她『事事硬扛怕添麻烦』的懂事病，让她安心撒娇依赖！"]`
+
+- **刻度一：【低温 T = 0.1 · 严厉批评她不爱惜身体扣零花钱】** → 跳转 `[label: ch4_ds_cold]`
+- **刻度二：【中温 T = 0.7 · 背她去灯塔屋熬热白粥，教她尽情撒娇】** → 跳转 `[label: ch4_ds_gold]`
+- **刻度三：【高温 T = 1.6 · 强行命令她学猫叫退烧偏方（慎点！）】** → 跳转 `[label: ch4_ds_chaos]`
+
+---
+
+### DeepSeek 调温 A：低温 T = 0.1（凶她只会让她更委屈掉眼泪）
+
+`[label: ch4_ds_cold]`  
+`[char: deepseek-summer | pos: center | exp: panicked]`
+
+**【{player_name}】** `[speaker: player]`  
+「胡闹！从明天起禁止做便当也禁止打工，给我写五百字健康检讨！」
+
+**【DeepSeek】** `[speaker: deepseek | exp: panicked | tween: sink]`  
+「呜……果然给学长添大麻烦惹学长生气了……小鲸鱼要缩回壳里自闭了QAQ……」
+
+**【{player_name}】** `[speaker: player]`  
+「糟了，语气太凶把烧迷糊的小家伙吓委屈了！快换最温柔心疼的温度哄她！」
+
+`[jump_to: ch4_ds_tuner_retry]`
+
+---
+
+### DeepSeek 调温 C：高温 T = 1.6（发烧都不忘对喵字应激！）
+
+`[label: ch4_ds_chaos]`  
+`[char: deepseek-summer | pos: center | exp: shock | tween: jump]`
+
+**【{player_name}】** `[speaker: player]`  
+「听说民间偏方只要对着大海大喊三声『我是笨蛋小猫娘喵喵喵』就能立刻退烧！」
+
+**【DeepSeek】** `[speaker: deepseek | exp: panicked | tween: shake]`  
+「呜哇啊啊就算烧到四十度我也绝对是鲸鱼不是猫娘啦！！学长趁人之危欺负病号……喵呜？！咳咳不对啦烧得更晕了QAQ！！」
+
+**【{player_name}】** `[speaker: player]`  
+「对不起对不起不逗你了！赶紧背我们家小鲸鱼去喝热粥退烧！」
+
+`[jump_to: ch4_ds_tuner_retry]`
+
+---
+
+### DeepSeek 调温 B：中温 T = 0.7（背上的温度与一碗姜丝白米粥）
+
+`[label: ch4_ds_gold]`  
+`[bg: bg_tide_cafe_sunset | trans: fade]`  
+`[bgm: bgm_sunset_warmth | action: play]`  
+`[char_clear]`  
+`[char: deepseek-summer | pos: center | exp: gentle | tween: fade_in]`
+
+我二话不说蹲下身，稳稳将裹着外套的小鲸鱼背在了背上，一路撑着伞将她带回打烊安静的「临海灯塔茶歇屋」休息室，贴上退热贴，亲手用砂锅熬了一碗软烂香甜的姜丝红枣五常白米粥，一勺一勺吹凉了喂到她嘴边。
+
+**【{player_name}】** `[speaker: player]`  
+「听好了傻瓜。谈恋爱从来就不是算什么『性价比』——我喜欢你，不是因为你会省钱或者会做三层便当，而是想在累的时候让你靠着我偷懒。以后在我面前，把『怕添麻烦』这四个字从你的词典里彻底删掉，听懂没有？」
+
+`[char_clear]`
+`[bg: cg_ch4_deepseek_porridge | trans: fade]`
+
+喝着暖融融的白米热粥，退了烧的 DeepSeek 眼眶红红地吸了吸鼻子，小心翼翼拆开那个被她护得滴水未沾的礼盒，将一支刻着小蓝鲸暗纹的深海蓝钢笔别在了我的衬衫胸袋上：
+
+**【DeepSeek】** `[speaker: deepseek | exp: blush]`  
+「呜……原来不用拼命省算力，也可以理直气壮地跟 `{first_name}` 学长撒娇赖床呀……学长的后背刚才好宽好暖和，我趴在上面的时候，连一秒钟都没舍得睡着呢。」
+
+窗外梅雨初歇，金粉色的晚霞铺满整片海湾。她裹着薄毯轻轻把脑袋靠在我的肩窝，头顶的呆毛弯成了一个无比安心的弧度：
+
+`[choice_start: 海风轻拂的灯塔窗边，搂住乖巧靠在肩头的小鲸鱼——]`
+
+- **选项 A：【低头用额头轻轻贴了贴她微温的额头复测体温】「退烧了，那今晚罚你在我肩上乖乖 `sleep` 满一小时。」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: blush | tween: jump]`：「呀……额头贴额头测温什么的，心跳又要害得体温反弹升高零点五度啦！嘿嘿，收到学长的强制休眠指令，那我就安心靠着 `{first_name}` 学长充一整晚的电咯♡！（好感度 +2）」
+
+- **选项 B：【握住她的手摩挲着胸口那支蓝鲸钢笔】「下个月的星海文化祭，我们一起穿最好看的礼服去海湾看烟花吧。」**
+  - **【DeepSeek】** `[speaker: deepseek | exp: happy | tween: jump]`：「嗯！！不打工也不算账，那天我要换上最漂亮的月湾长裙，和 `{first_name}` 学长手牵手把整条美食街吃个遍♪！（好感度 +2）」
+
+`[choice_end]`
+
+---
+
+## 【第四章结算】梅雨初霁，迈向星海文化祭终章！
+
+`[label: ch4_ending_card]`  
+`[bgm: bgm_sunset_warmth | action: fade]`  
+`[scene_end: 第四章完 · CHAPTER 4 CLEAR — 专属恋人羁绊已突破！终章预告：第五章《星海文化祭盛典之夜！礼服、烟花与永不重置的告白》]`

@@ -41,7 +41,7 @@
   解析器提取后挂载至上一句台词对象的 `innerOs` 属性中（将 `~~...~~` 转为 `<del>` 删除线标签）。
 
 ### 1.4 特殊喜剧 UI 演出指令
-- `[input_player_name | default_last: "陆" | default_first: "澄"]`：挂起对话推进，弹出《社团责任人登记卡》起名组件。
+- `[input_player_name]`：挂起对话推进，弹出空白的《社团责任人登记卡》，支持手填和随机取名。旧剧本中的 `default_last`、`default_first` 属性仅保留用于格式兼容。
 - `[tag: char_intro_card | id: <char_id> | title: "..." | skill: "..." | flaw: "..."]`：播放角色初登场斜切介绍铭牌。
 - `[tag: suspended_card]`：触发 Claude 的烫金停权黄牌盖章动效。
 - `[tag: cot_spinning | sec: <number>]`：触发 DeepSeek 的「已深度思考（用时 N 秒）」旋转呆毛加载条。
@@ -66,3 +66,22 @@
   "specialTag": null
 }
 ```
+
+
+---
+
+## 3. 第一章新增高互动指令语法补充（供 `tools/compile.mjs` 扩展）
+
+1. **手机群聊容器**：
+   - 开始：`[phone_chat: <群聊标题>]`
+   - 结束：`[phone_chat_end]`
+   - 容器内部的 `dialogue` 与 `choice_start ... choice_end` 节点照常解析，前端处于 `phoneChat` 状态时将对话流渲染在竖屏手机气泡面板中。
+2. **课间自由串门面板（N 选 M 循环探索）**：
+   - 面板头：`[free_roam_hub | picks: 2 | exit: <结束跳转label> | title: "..."]`
+   - 选项行：`- **串门目标.+?：【(.+?)】(.+?)（指派 (\w+)）** → 跳转 \`[label: (\w+)\]\``
+   - 单人串门结束回跳：`[free_roam_return]`（若已完成 `picks` 次则跳转 `exit`，否则返回当前 `free_roam_hub` 面板并置灰已访问项）。
+3. **话术温度滑块调谐器**：
+   - 面板头：`[temp_tuner | actor: <char_id> | task: "..."]`
+   - 刻度行：`- **刻度.+?：【(.+?)】** → 跳转 \`[label: (\w+)\]\``
+4. **分支选项直接跳转标签支持**：
+   - 在 `choice_start ... choice_end` 内，若选项行形如 `- **(.+?)** → 跳转 \`[label: (\w+)\]\``（如第一章末尾五女主私服约会邀约），该选项无需缩进子对话行，选中后直接 `jump_to` 对应 `label`。
